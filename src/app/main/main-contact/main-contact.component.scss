@@ -1,0 +1,95 @@
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    
+}
+
+.name {
+    width: 445px;
+    height: 60px;
+    border-radius: 30px;  
+}
+.aboutMe{
+    width: 379;
+    height: 176;
+}
+.mail{
+    width: 445px;
+    height: 60px;
+    border-radius: 30px;
+}
+.massage{
+    width: 911px;
+    height: 164px;
+    border-radius: 30px;
+}
+.send {
+    width: 101px;
+    height: 48px;
+    border-radius: 30px;
+}
+.contactForm{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 21px;
+
+}
+
+.nameMail {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.contactmassage{
+    display: flex;
+    justify-content: center;
+}
+.mailTel{
+    background: url('../../../assets/img/Contact\ Email\ Web.png');
+
+        &:hover{
+            background-color: aquamarine;
+
+        }
+}
+
+
+
+.arrowDown {
+    width: 38px;
+    height: 89px;
+    &:hover{
+        background-color:#f7efe634;
+        border-radius: 25px;
+    }
+}
+
+// button {
+//     // width: 134px;
+//     // height: 48px;
+//     // top: 87px;
+//     // left: 20px;
+//     border-radius: 30px;
+//     border-color: #89BCD9;
+//     // padding-top: 13px;
+//     // padding-right: 30px;
+//     // padding-bottom: 13px;
+//     // padding-left: 30px;
+//     border: 1px solid #89BCD9;
+//     // color: #89BCD9;
+//     background-image: url('../../assets/img/Arrowdown.png');
+//     // background-repeat: repeat;
+   
+  
+//  background-color: transparent;
+//     &:hover{
+//         background-color:#262E34;
+//         border-radius: 30px;
+//     }
+// }
+

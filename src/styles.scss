@@ -1,0 +1,73 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-color: #124658;
+    display: flex;
+    flex-direction: center;
+    justify-content: space-between;
+
+
+}
+/* josefin-sans-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 400px;
+    src: url('../src/assets/fonts/josefin-sans-v32-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* josefin-sans-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    font-weight: 700px;
+    src: url('../src/assets/fonts/josefin-sans-v32-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+
+
+/* figtree-regular - latin */
+@font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 400px;
+    src: url('../src/assets/fonts/figtree-v6-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  /* figtree-700 - latin */
+  @font-face {
+    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 700px;
+    src: url('../src/assets/fonts/figtree-v6-latin-700.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+  }
+  
+  h1 {
+    font-family: 'Figtree';
+  }
+  h2 {
+    font-family: 'Figtree';
+  }
+  h3 {
+    font-family: 'Figtree';
+    font-size: 60px;
+    color: #89BCD9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  h4 {
+    font-family: 'Josefin Sans';
+    font-size: 14px;
+    font-weight: 400px;
+    color: #89BCD9;
+  }
+  p {
+    font-family: 'Josefin Sans';
+    font-size: 18px;
+    color: #F8F5EC;
+    display: flex;
+    align-items:flex-start ;
+  }

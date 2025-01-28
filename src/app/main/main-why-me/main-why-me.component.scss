@@ -1,0 +1,32 @@
+.whyMe {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.text {
+    width: 379px;
+    height: 176px;
+}
+
+button {
+    width: 134px;
+    height: 48px;
+    top: 87px;
+    left: 20px;
+    border-radius: 30px;
+    border-color: #89BCD9;
+    padding-top: 13px;
+    padding-right: 30px;
+    padding-bottom: 13px;
+    padding-left: 30px;
+    border: 1px solid #89BCD9;
+    color: #89BCD9;
+ background-color: transparent;
+    &:hover{
+        background-color:#262E34;
+        border-radius: 30px;
+    }
+
+}

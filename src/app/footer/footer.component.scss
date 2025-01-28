@@ -1,0 +1,24 @@
+.footer {
+    width: 100%;
+    height: 200px;
+    background-color: #89bcd9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 417px;
+}
+
+
+
+.socialIconFooter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    gap: 16px;
+    a{
+        &:hover{
+            background-color:white;
+        }
+    }
+}
