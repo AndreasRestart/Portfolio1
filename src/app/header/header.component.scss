@@ -6,18 +6,18 @@
     
 }
 .subject {
-    width: 50%;
+    width: 650px;
     height: 688px;
     display: flex;
     justify-content: flex-start;
-    background-size: cover;
+    background-size: contain;
     background-position: center;
     background-image: url(../../../../Portfolio/src/assets/img/photo.png);
     transition: background-image 0.70s ease;
     &:hover{
         background-image: url(../../../../Portfolio/src/assets/img/Property\ 1=hover.png);
      }
-    background-size: 800px;
+    // background-size: 100%;
     
 }
 .shape {

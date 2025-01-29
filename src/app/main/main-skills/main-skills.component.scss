@@ -1,12 +1,56 @@
+.skills{
+  // width: 869px;
+  // height: 556px;
+  display: flex;
+  justify-content: center;
+  // flex-direction: row;
+  }
 
-.mySkills {
+.icons {
+  gap: 40px 40px;
+  width: 450px;
+  height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+   
+}
+
+.icon{
+
+  width: 76px;
+  height: 100px;
+display: flex;
+flex-direction: row;
+
+}
+
+.currently{
+  width: 525px;
+  height: 524px;
+}
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+}
+
+.subject {
+  width: 410px;
+  height: 391px;
   display: flex;
   justify-content: center;
   flex-direction: column;
-  gap: 80px;
-}
-.icons {
-    width: 409px;
-    height: 404px;
-    gap: 15px;
+  background-size: contain;
+  background-position: center;
+  background-image: url(../../../../../Portfolio/src/assets/img/Ellipse\ BG\ \(1\).png);
+  transition:background-image 0.70s ease;
+  &:hover{
+      background-image: url(../../../../../Portfolio/src/assets/img/Ellipse\ BG.png);
+   rotate: -15°;
+    }
+ 
+  
 }
