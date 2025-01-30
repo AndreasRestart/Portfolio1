@@ -6,16 +6,19 @@
     
 }
 .subject {
-    width: 650px;
-    height: 688px;
+    width: 588px;
+    height: 624px;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     background-size: contain;
     background-position: center;
-    background-image: url(../../../../Portfolio/src/assets/img/photo.png);
+    background-image: url('../../../../Portfolio/src/assets/img/photo.png');
     transition: background-image 0.70s ease;
+
     &:hover{
-        background-image: url(../../../../Portfolio/src/assets/img/Property\ 1=hover.png);
+        background-image: url('../../../../Portfolio/src/assets/img/photo.png');
+        rotate: (7deg);
+    
      }
     // background-size: 100%;
     
@@ -79,19 +82,34 @@ flex-direction: column;
 }
 
 .main {
-    width: 50%;
-    height: 688px;
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: center;
+    width: 56px;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    // background-image: url(../../assets/img/LOGO.png);
+
 
 }
 
-.LOGO {
+.Logo {
+    width: 52px;
+    height: 58px;
+    display: flex;
+    justify-content: center;
+    background-image: url( ../../assets/img/Property\ 1=Default\ \(1\).png);
+    background-size: cover;
+   
+    transition:background-image 0.70s ease;
+    &:hover{
+        background-image: url(../../assets/img/Property\ 1=hover\ \(2\).png);
+        background-size: 100%;
+    //     width: 48px;
+    //   height: 30px;
+
+    }
     
-    width: 70px;
-    height: 73px;
 }
 
 
@@ -158,11 +176,15 @@ button {
 .menuSystem {
     width: 677px;
     height: 26px;
+    
     cursor: pointer;
     display: flex;
     justify-content: baseline;
     justify-content: space-around;
     gap: 25px;
+    p{
+        color: black;
+    }
     a{
         &:hover{
             color:white;

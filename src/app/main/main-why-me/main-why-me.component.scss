@@ -1,20 +1,26 @@
 .whyMe {
     display: flex;
     justify-content: center;
-
+gap: 52px;
 }
 
+.local{
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 
+}
 .text {
-    width: 379px;
+    width: 400px;
     height: 176px;
+    display: flex;
+    flex-direction: column;
 }
 
 button {
     width: 134px;
     height: 48px;
-    top: 87px;
-    left: 20px;
     border-radius: 30px;
     border-color: #89BCD9;
     padding-top: 13px;
@@ -28,5 +34,11 @@ button {
         background-color:#262E34;
         border-radius: 30px;
     }
+
+}
+
+.talk{
+    display: flex;
+    justify-content: flex-end;
 
 }

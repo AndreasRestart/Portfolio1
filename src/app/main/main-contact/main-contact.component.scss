@@ -1,5 +1,13 @@
+.c {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
 .contactMe {
-    width: 95%;
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
 }
 .Contact {
     display: flex;
@@ -63,28 +71,119 @@ main {
     justify-content: center;
 }
 .mailTel{
-    width: 22px;
-    height: 20px;
-
-    background: url('../../../../src/assets/img/mail.png');
+    width: 380px;
+    height: 30px;
+    color: white;
+    
+    background: url('../../../../src/assets/img/MAilkon.png');
 
         &:hover{
-            background-color: black;
+           
+          color: #89BCD9;
 
         }
 }
+
+.img {
+    color: white;
+    width: 250px;
+    height: 35px;
+}
+
+.Mail {
+    width: 350px;
+}
+
+.arrowDown{
+    width: 38px;
+    height: 89px;
+    &:hover{
+        background-color: #f7efe634;
+        border-radius: 25px;
+        
+    }
+}
+button.arrowDown{
+    border-radius: 30px;
+    border-color: #89BCD9;
+    border: 1px solid #89BCD9;
+    background-image: url(../../../assets/img/Arrowdown.png);
+    rotate: 180deg;
+    background-color: transparent;
+    &hover{
+        background-color: #262E34;
+        border-radius: 30px;
+    }
+
+}
+button.send {
+    width: 134px;
+    height: 48px;
+   
+    border-radius: 30px;
+    border-color: #89BCD9;
+    padding-top: 13px;
+    padding-right: 30px;
+    padding-bottom: 13px;
+    padding-left: 30px;
+    border: 1px solid #89BCD9;
+ 
+    color: #89BCD9;
+   background-color: transparent;
+   &:hover{
+        background-color: #262E34;
+        border-radius: 30px;
+        
+   }
+}
+
+.buttonText {
+    display: flex;
+    justify-content: center;
+}
+
+
+// button {
+   
+//     border-radius: 30px;
+//     border-color: #89BCD9;
+   
+//     border: 1px solid #89BCD9;
+//     // color: #89BCD9;
+//     background-image: url('../../assets/img/Arrowdown.png');
+//     // background-repeat: repeat;
+   
+  
+//  background-color: transparent;
+//     &:hover{
+//         background-color:#262E34;
+//         border-radius: 30px;
+//     }
+
+// }
+
+// .arrowDown {
+//     width: 38px;
+//     height: 89px;
+//     &:hover{
+//         background-color:#f7efe634;
+//         border-radius: 25px;
+//     }
+// }
+
 
 // .arrow {
 //     width: 5%;
 // }
 
-// .arrow {
+// .arrowDown {
 //     width: 38px;
 //     height: 89px;
 //     border-radius: 30px;
 //     border-color: #89BCD9;
 //     border: 1px solid #89BCD9;
 //     background-image: url('../../assets/img/Arrowdown.png');
+
 //     &:hover{
 //         background-color:#f7efe634;
 //         border-radius: 25px;
