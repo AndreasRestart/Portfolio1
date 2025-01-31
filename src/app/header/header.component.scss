@@ -12,12 +12,13 @@
     justify-content: center;
     background-size: contain;
     background-position: center;
-    background-image: url('../../../../Portfolio/src/assets/img/photo.png');
+    background-image: url('../../../../Portfolio/src/assets/img/Property\ 1=Default\ \(2\).png');
     transition: background-image 0.70s ease;
+    background-repeat: no-repeat;
 
     &:hover{
-        background-image: url('../../../../Portfolio/src/assets/img/photo.png');
-        rotate: (7deg);
+        background-image: url('../../../../Portfolio/src/assets/img/Property\ 1=hover\ \(1\).png');
+        // rotate: (7deg);
     
      }
     // background-size: 100%;
@@ -82,7 +83,7 @@ flex-direction: column;
 }
 
 .main {
-    width: 56px;
+    width: 610px;
     height: 380px;
     display: flex;
     flex-direction: column;
@@ -100,13 +101,13 @@ flex-direction: column;
     justify-content: center;
     background-image: url( ../../assets/img/Property\ 1=Default\ \(1\).png);
     background-size: cover;
-   
     transition:background-image 0.70s ease;
-    &:hover{
-        background-image: url(../../assets/img/Property\ 1=hover\ \(2\).png);
-        background-size: 100%;
-    //     width: 48px;
-    //   height: 30px;
+
+        &:hover{
+        background-image: url( ../../assets/img/Property\ 1=hover\ \(2\).png);
+        // background-size: 100%;
+        // width: 48px;
+        // height: 30px;
 
     }
     
@@ -177,18 +178,41 @@ button {
     width: 677px;
     height: 26px;
     
+    
     cursor: pointer;
     display: flex;
-    justify-content: baseline;
+   
     justify-content: space-around;
+    align-items: center;
     gap: 25px;
     p{
         color: black;
+        
     }
     a{
+        text-decoration: none;
+        color: black;
         &:hover{
+           
             color:white;
+            background-image: url(../../assets/img/Ellipse\ 24.png);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 83px;
+            height: 56px; 
+            // z-index: 10;
+        }
+    }
+    p{
+        &:focus{
+            background-image: url(../../assets/img/BlackLogo.png
+            );
         }
     }
 
+}
+.a {
+    text-decoration: none;
+    color: black;
 }

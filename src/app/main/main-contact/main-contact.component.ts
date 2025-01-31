@@ -8,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './main-contact.component.scss'
 })
 export class MainContactComponent {
-
+scrolltotop(){
+  window.scrollTo({top:0,behavior:"smooth"})
+}
 }

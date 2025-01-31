@@ -8,5 +8,7 @@ import { Component } from '@angular/core';
   styleUrl: './main-projects.component.scss'
 })
 export class MainProjectsComponent {
-
+  scrollToBottom() {
+    window.scrollTo(0, (window.document.body.scrollHeight - window.innerHeight));
+  }
 }

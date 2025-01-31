@@ -8,5 +8,8 @@ import { Component } from '@angular/core';
   styleUrl: './main-why-me.component.scss'
 })
 export class MainWhyMeComponent {
+  scrollToBottom(){
+      window.scrollTo(0, (window.document.body.scrollHeight - window.innerHeight));
+    }
 
 }

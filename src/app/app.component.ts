@@ -7,11 +7,12 @@ import { MainSkillsComponent } from "./main/main-skills/main-skills.component";
 import { MainContactComponent } from "./main/main-contact/main-contact.component";
 import { MainWhyMeComponent } from './main/main-why-me/main-why-me.component';
 import { FooterComponent } from './footer/footer.component';
+import { MainReferencesComponent } from "./main/main-references/main-references.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [HeaderComponent, MainSkillsComponent, MainWhyMeComponent, FooterComponent, MainComponent,  MainProjectsComponent, MainContactComponent]
+  imports: [HeaderComponent, MainSkillsComponent, MainWhyMeComponent, FooterComponent, MainComponent, MainProjectsComponent, MainContactComponent, MainReferencesComponent]
   ,
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'

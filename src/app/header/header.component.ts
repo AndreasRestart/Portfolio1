@@ -8,5 +8,10 @@ import { Component } from '@angular/core';
   styleUrl: './header.component.scss'
 })
 export class HeaderComponent {
-
+  scrolltotop(){
+    window.scrollTo({top:0,behavior:"smooth"})
+  }
+  scrolltobottom(){
+    window.scrollTo(0, (window.document.body.scrollHeight - window.innerHeight));
+  }
 }

@@ -8,11 +8,16 @@
 
     <div class="subject1">
 
-        <div class="socialIcon">
+        <div class="socialIcon" id="section1">
+            <div>
             <p><a href=Mail><img class="email" src="./assets/img/Emailbutton.png" alt=""> </a></p>
-            <p><a href=Discord><img class="discord" src="./assets/img/Githubbutton.png" alt=""></a></p>
-            <p><a href="http://www.linkedin.com/in/andreaswelker"> <img class="LinkedIn" src="./assets/img/Linkedinbutton.png" alt=""></a></p>
+            </div>
+        <div><p><a href=Discord><img class="discord" src="./assets/img/Githubbutton.png" alt=""></a></p>
         </div>
+        <div>
+             <p><a href="http://www.linkedin.com/in/andreaswelker"> <img class="LinkedIn" src="./assets/img/Linkedinbutton.png" alt=""></a></p>
+        </div>
+            </div>
     </div>    
 
         <div class="main">
@@ -33,13 +38,13 @@
 
 <div class="menuBar">
     <div class="logoDarkMode">
-        <img class="logoLine" src="./assets/img/Logodarkmob.png" alt="">
+        <img class="logoLine" (click)="scrolltotop()"  src="./assets/img/Logodarkmob.png" alt="">
     </div>
     <div class="menuSystem">
        <p><a>Why me</a></p>
-       <p><a>Skills</a></p>
-       <p><a>Pojects</a></p>
-       <p><a>Contact</a></p>
+       <p><a href="#skills">Skills </a></p>
+       <p (click)="scrolltobottom()" ><a>Pojects</a></p>
+       <p (click)="scrolltobottom()" ><a>Contact </a></p>
     </div>
 
     <div class="changeLangugageWeb">

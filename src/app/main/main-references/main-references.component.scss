@@ -1,0 +1,34 @@
+.references{
+    width: 100%;
+    height: 479px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.shapecollected{
+    display: flex;
+    justify-content: center;
+        text-align: center;
+        flex-direction: column;
+}
+
+.shape{
+width: 378px;
+height: 383px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+background-size: contain;
+background-position: center;
+background-image: url(../../../assets/img/Shape\ refer.png);
+transition: backgorund-image 0.70s ease;
+background-repeat: no-repeat;
+&:hover{
+    background-image: url(../../../assets/img/Ellipse\ 24\ ref.png);
+    background-repeat: no-repeat;
+    // rotate: -7deg;
+    
+}
+
+}

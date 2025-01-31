@@ -47,9 +47,12 @@ p {
   background-position: center;
   background-image: url(../../../../../Portfolio/src/assets/img/Ellipse\ BG\ \(1\).png);
   transition:background-image 0.70s ease;
+  background-repeat: no-repeat;
   &:hover{
       background-image: url(../../../../../Portfolio/src/assets/img/Ellipse\ BG.png);
-   rotate: -15°;
+      background-repeat: no-repeat;
+      
+      // rotate: -15deg;
     }
  
   
