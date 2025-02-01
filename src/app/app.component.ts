@@ -9,14 +9,22 @@ import { MainWhyMeComponent } from './main/main-why-me/main-why-me.component';
 import { FooterComponent } from './footer/footer.component';
 import { MainReferencesComponent } from "./main/main-references/main-references.component";
 
+import { TranslateService, TranslatePipe, TranslateDirective } from '@ngx-translate/core';
+
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [HeaderComponent, MainSkillsComponent, MainWhyMeComponent, FooterComponent, MainComponent, MainProjectsComponent, MainContactComponent, MainReferencesComponent]
+  imports: [HeaderComponent, MainSkillsComponent, MainWhyMeComponent, 
+    FooterComponent, MainComponent, MainProjectsComponent, MainContactComponent,
+     MainReferencesComponent, TranslatePipe, TranslateDirective]
   ,
   templateUrl: './app.component.html',
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  
+  constructor(private translate: TranslateService) {
+    this.translate.addLangs(['de', 'en']);
+    this.translate.setDefaultLang('en');
+    this.translate.use('en');
+  }
 }

@@ -11,7 +11,7 @@ export class HeaderComponent {
   scrolltotop(){
     window.scrollTo({top:0,behavior:"smooth"})
   }
-  scrolltobottom(){
+   scrolltobottom(){
     window.scrollTo(0, (window.document.body.scrollHeight - window.innerHeight));
   }
-}
+ }
