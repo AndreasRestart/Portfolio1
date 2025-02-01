@@ -5,7 +5,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 417px;
+    gap: 414px;
 }
 
 
@@ -18,7 +18,44 @@
     gap: 16px;
     a{
         &:hover{
+            border-radius: 20px;
+            height: 30px;
             background-color:white;
         }
     }
+}
+
+.email {
+    width: 30px;
+    height: 30px;
+    &:hover{
+    
+        background-image: url(../../../src/assets/img/Property\ 1=hover\ blue\ \(3\).png);
+    }
+}
+
+.discord {
+    width: 30px;
+    height: 30px;
+    &:hover{
+        background-image: url(../../../src/assets/img/Property\ 1=hover\ blue\ \(1\).png);
+    }
+    
+}
+.LinkedIn {
+    width: 30px;
+    height: 30px;
+    &:hover{
+        background-image: url(../../../src/assets/img/Property\ 1=hover\ blue\ \(2\).png);
+    }
+}
+p{
+    color: black;
+ 
+  
+    
+}
+a{
+    text-decoration: none;
+    color: black;
 }

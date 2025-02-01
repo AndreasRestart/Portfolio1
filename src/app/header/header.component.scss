@@ -62,24 +62,36 @@ justify-content: flex-end;
 flex-direction: column;
      p{
         &:hover{
-            background-color: black;
+           
             border-radius: 20px;
             height: 30px;
         }
     }   
 }
 
+
 .email {
     width: 30px;
     height: 30px;
+    &:hover{
+        background-image: url(../../../src/assets/img/Property\ 1=hover\ blue.png);
+    }
 }
+
 .discord {
     width: 30px;
     height: 30px;
+    &:hover{
+        background-image: url(../../../src/assets/img/Property\ 1=hover\ blue\ \(1\).png);
+    }
+    
 }
 .LinkedIn {
     width: 30px;
     height: 30px;
+    &:hover{
+        background-image: url(../../../src/assets/img/Property\ 1=hover\ blue\ \(2\).png);
+    }
 }
 
 .main {
