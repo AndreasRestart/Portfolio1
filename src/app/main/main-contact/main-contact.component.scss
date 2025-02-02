@@ -2,25 +2,28 @@
     display: flex;
     justify-content: center;
     flex-direction: row;
+    height: 661px;
 }
 
 .contactMe {
  display: flex;
  justify-content: center;
  flex-direction: column;
+ height: 528px;
 }
 .Contact {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    height: 124px;
 }
 .text {
     width: 429px;
     height: 124px;
 }
 
-main {
+.nameMail {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -30,17 +33,28 @@ main {
 
 .name {
     width: 445px;
-    height: 60px;
+    height: 80px;
     border-radius: 30px;  
+}
+.mail {
+    width: 445px;
+    height: 80px;
+    border-radius: 30px;
 }
 .aboutMe{
     width: 379;
     height: 176;
 }
-.mail{
+.contactEmail{
+    display: flex;
+    justify-content: center;
     width: 445px;
-    height: 60px;
+    height: 80px;
     border-radius: 30px;
+}
+.input {
+    height: 356px;
+
 }
 .massage{
     width: 911px;
@@ -59,11 +73,26 @@ main {
     gap: 21px;
 
 }
-
-.nameMail {
+.messageInput{
     display: flex;
     justify-content: center;
-   
+    text-align: left;
+    flex-direction: column;
+}
+
+
+
+.contactName {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 445px;
+    height: 80px;
+   }
+
+.massage {
+    width: 991px;
+    height: 164px;
 }
 
 .contactmassage{
@@ -142,6 +171,10 @@ button.send {
     justify-content: center;
 }
 
+.privcePolicy{
+    width: 911px;
+    height: 80px;
+}
 
 // button {
    

@@ -15,25 +15,31 @@
 </div>
 </div>
 
-<div class="input">
-<div class="contactForm">
+<div  class="input">
+<form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm" class="contactForm">
 <div class="nameMail">
-<div class="contactName">
-    <h4>Your namel</h4><br>
-    <input class="name" type="text">
+    <div>
+<label for="name" class="contactName"><h4>Your name</h4></label>
+<input [(ngModel)]="contactDate.name" class="name" type="text" required>
+    </div>
+
+<div>
+<label for="mail" class="contactEmail"><h4>Your Email</h4></label>
+<input [(ngModel)]="contactDate.mail" class="mail" type="text" required pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}">
 </div>
-<div class="contactEmail">
-    <h4>Your Email</h4> <br>
-    <input class="mail" type="text">
+
 </div>
-</div>
-<div class="contactmassage">
-    <h4>Your Message</h4> <br>
-    <input class="massage" type="text">
-</div>
+<div class="messageInput"></div>
+<label for="message" class="contactmassage"><h4>Your Message</h4></label>
+<input #message="ngModel" minlength="4" [(ngModel)]="contactDate.massage" class="massage" type="text" required>
+
+@if (!message.valid && message.touched && !message.disabled) {
+    <span>Please enter a message</span>
+}
+
 <div class="privcePolicy"></div>
 I've read the privacy policy and agree to the processing of my as otulined.
-</div>
+</form>
 <button class="send">Send</button>
 
 </div>
