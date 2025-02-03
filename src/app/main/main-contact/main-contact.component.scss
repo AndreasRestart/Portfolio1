@@ -1,4 +1,5 @@
 .c {
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -12,34 +13,41 @@
  height: 528px;
 }
 .Contact {
+    width: 1000px;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
     height: 124px;
+   
 }
 .text {
-    width: 429px;
+    width: 445px;
     height: 124px;
 }
 
 .nameMail {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     flex-direction: row;
+    gap: 21px;
     
 }
 
 .name {
     width: 445px;
     height: 80px;
-    border-radius: 30px;  
+    border-radius: 30px;
+    background-color: transparent;
+    border-color: #89BCD9;  
 }
 .mail {
     width: 445px;
     height: 80px;
     border-radius: 30px;
+    background-color: transparent;
+    border-color: #89BCD9;
 }
 .aboutMe{
     width: 379;
@@ -47,35 +55,41 @@
 }
 .contactEmail{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     width: 445px;
-    height: 80px;
+    height: 35px;
     border-radius: 30px;
+   border-color: #89BCD9;
 }
 .input {
     height: 356px;
+    gap: 16px
+    
 
 }
 .massage{
     width: 911px;
     height: 164px;
     border-radius: 30px;
+    background-color: transparent;
+    border-color: #89BCD9;
 }
 .send {
     width: 101px;
     height: 48px;
     border-radius: 30px;
+    
 }
 .contactForm{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
     gap: 21px;
 
 }
 .messageInput{
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     text-align: left;
     flex-direction: column;
 }
@@ -84,10 +98,10 @@
 
 .contactName {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
     width: 445px;
-    height: 80px;
+    height: 35px;
    }
 
 .massage {
@@ -97,16 +111,23 @@
 
 .contactmassage{
     display: flex;
-    justify-content: center;
+    justify-content:flex-start;
+    height: 35px;
+    
 }
 .mailTel{
-    width: 380px;
-    height: 30px;
+    width: 445px;
+    height: 124px;
     color: white;
-    
-    background: url('../../../../src/assets/img/MAilkon.png');
+    font-family: 'Josefin Sans';
+    font-size: 20px;
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
 
+    
         &:hover{
+
            
           color: #89BCD9;
 
@@ -172,8 +193,18 @@ button.send {
 }
 
 .privcePolicy{
-    width: 911px;
+    width: 997px;
     height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    text-align: left;
+        
+}
+
+.sendButton{
+    display: flex;
+    justify-content: flex-end;
 }
 
 // button {

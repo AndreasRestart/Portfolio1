@@ -1,5 +1,5 @@
 <p>main-contact works!</p>
-<div class="con"></div>
+<!-- <div class="con"></div> -->
 <div class="c">
 
 <div class="contactMe">
@@ -10,12 +10,16 @@
 </p>
 </div>
 <div class="mailTel">
+    &#9993;   E-mail: andreaswelker&#64;aol.com <br>
+    <br>
+    &#9990;   Tel: 0171 624 59 85
+  
 
    <!-- <p class="Mail">E-mail: andreaswelker&#64;aol.com</p> -->
 </div>
 </div>
 
-<div  class="input">
+<div class="input">
 <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm" class="contactForm">
 <div class="nameMail">
     <div>
@@ -29,18 +33,24 @@
 </div>
 
 </div>
-<div class="messageInput"></div>
+<div class="messageInput">
 <label for="message" class="contactmassage"><h4>Your Message</h4></label>
 <input #message="ngModel" minlength="4" [(ngModel)]="contactDate.massage" class="massage" type="text" required>
 
 @if (!message.valid && message.touched && !message.disabled) {
     <span>Please enter a message</span>
 }
-
-<div class="privcePolicy"></div>
-I've read the privacy policy and agree to the processing of my as otulined.
+</div>
 </form>
-<button class="send">Send</button>
+</div>
+
+<div class="privcePolicy">
+    <div>
+        
+<p>I've read the privacy policy and agree to the processing of my as otulined.</p>
+</div>
+<div class="sendButton"><button class="send">Send</button>
+</div>
 
 </div>
 
