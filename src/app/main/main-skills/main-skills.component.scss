@@ -1,9 +1,15 @@
 .skills{
+  width: 100%;
   // width: 869px;
   // height: 556px;
   display: flex;
   justify-content: center;
   // flex-direction: row;
+  }
+  .skill {
+    width: 307px;
+    height: 105px;
+    text-align: center;
   }
 
 .icons {
@@ -43,6 +49,7 @@ p {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  align-items: center;
   background-size: contain;
   background-position: center;
   background-image: url(../../../../../Portfolio/src/assets/img/Ellipse\ BG\ \(1\).png);
@@ -52,8 +59,11 @@ p {
       background-image: url(../../../../../Portfolio/src/assets/img/Ellipse\ BG.png);
       background-repeat: no-repeat;
       
-      // rotate: -15deg;
     }
- 
-  
-}
+   }
+
+   .iconSubject{
+    
+    width: 36px;
+    height: 54px;
+   }

@@ -31,6 +31,7 @@
     justify-content: space-between;
     align-items: center;
     flex-direction: row;
+   
     gap: 21px;
     
 }
@@ -55,7 +56,8 @@
 }
 .contactEmail{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    flex-direction: column;
     width: 445px;
     height: 35px;
     border-radius: 30px;
@@ -98,7 +100,7 @@
 
 .contactName {
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
     flex-direction: column;
     width: 445px;
     height: 35px;
@@ -111,7 +113,8 @@
 
 .contactmassage{
     display: flex;
-    justify-content:flex-start;
+    justify-content:center;
+    flex-direction: column;
     height: 35px;
     
 }
