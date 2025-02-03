@@ -9,7 +9,10 @@ import { MainWhyMeComponent } from './main/main-why-me/main-why-me.component';
 import { FooterComponent } from './footer/footer.component';
 import { MainReferencesComponent } from "./main/main-references/main-references.component";
 
-import { TranslateService, TranslatePipe, TranslateDirective } from '@ngx-translate/core';
+import { TranslateService, 
+          TranslatePipe, 
+          TranslateDirective 
+        } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-root',
@@ -25,6 +28,6 @@ export class AppComponent {
   constructor(private translate: TranslateService) {
     this.translate.addLangs(['de', 'en']);
     this.translate.setDefaultLang('en');
-    this.translate.use('en');
+    this.translate.use('de');
   }
 }

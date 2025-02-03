@@ -1,8 +1,7 @@
 {
     "footer":{
-        "hello ": "Guten Tag {{value}}",
-    "Legal notice": "Rechtliches",
-    "title": "Translation Demo"
+        "hello ": "Guten Tag {{value}}"
+  
   }
 
 }

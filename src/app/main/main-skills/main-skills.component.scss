@@ -52,11 +52,11 @@ p {
   align-items: center;
   background-size: contain;
   background-position: center;
-  background-image: url(../../../../../Portfolio/src/assets/img/Ellipse\ BG\ \(1\).png);
+  background-image: url(../../../../../Portfolio/src/assets/img/EllipseBG1.png);
   transition:background-image 0.70s ease;
   background-repeat: no-repeat;
   &:hover{
-      background-image: url(../../../../../Portfolio/src/assets/img/Ellipse\ BG.png);
+      background-image: url(../../../../../Portfolio/src/assets/img/EllipseBG.png);
       background-repeat: no-repeat;
       
     }
