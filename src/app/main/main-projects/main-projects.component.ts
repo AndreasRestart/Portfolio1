@@ -10,26 +10,48 @@ import { Component } from '@angular/core';
 export class MainProjectsComponent {
   projects:{
     name: string;
+    duration: string;
     description: string;
-    technologies: string;
+    implementationDetails: string;
+    technologiesBasic: string;
+    technologiesA: string;
+    technologiesB: string;
+    technologiesC: string;
     image: string;
     URL: string;
   }[] =[
-    {name: "EL Pollo Loco",
-      description: "es war einmal",
-      technologies: "./",
+    { name: "EL Pollo Loco",
+      duration: "3 Weeks",
+      description: "Jump, run and throw game based on object-oriented approach. Help Pepe to find coins and tabasco salsa to fight against the crazy hen.",
+      implementationDetails:"Short text that describes your role or the workflow for this specific project. Let a recruiter know more about your knowledge and ability to work independently or collaboratively in a structured way.",
+      technologiesBasic: "/assets/img/HTML.png",
+      technologiesA: "/assets/img/CSS.png",
+      technologiesB: "/assets/img/Javascript.png",
+      technologiesC: "/",
+
+
+      image: "/assets/img/Pollo.png",
+      URL: "url"
+    },
+    { name: "Pokedex",
+      duration: "3 Weeks",
+      description: "Based on the PokéAPI a simple library that provides and catalogues pokemon information.",
+      implementationDetails:"",
+      technologiesBasic: "/assets/img/HTML.png",
+      technologiesA: "/assets/img/CSS.png",
+      technologiesB: "/assets/img/Javascript.png",
+      technologiesC: "/assets/img/Api.png",
       image: "./",
       URL: "url"
     },
-    {name: "Pokedex",
+    { name: "test",
+      duration: "3 Weeks",
       description: "es war einmal",
-      technologies: "./",
-      image: "./",
-      URL: "url"
-    },
-    {name: "test",
-      description: "es war einmal",
-      technologies: "./",
+      implementationDetails:"",
+      technologiesBasic: "/",
+      technologiesA: "/",
+      technologiesB: "/",
+      technologiesC: "/",
       image: "./",
       URL: "url"
     }
