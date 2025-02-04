@@ -1,13 +1,16 @@
 import { Component } from '@angular/core';
+import { MainProjectsDetailComponent } from './main-projects-detail/main-projects-detail.component';
 
 @Component({
   selector: 'app-main-projects',
   standalone: true,
-  imports: [],
+  imports: [MainProjectsDetailComponent],
   templateUrl: './main-projects.component.html',
   styleUrl: './main-projects.component.scss'
 })
 export class MainProjectsComponent {
+  curentProject: string = "";
+
   projects:{
     name: string;
     duration: string;
@@ -56,9 +59,11 @@ export class MainProjectsComponent {
       URL: "url"
     }
   ]
+showDetailProjects(name: string){
+this.curentProject = name;
+}
 
-  
-  scrollToBottom() {
+    scrollToBottom() {
     window.scrollTo(0, (window.document.body.scrollHeight - window.innerHeight));
   }
 }

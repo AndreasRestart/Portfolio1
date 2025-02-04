@@ -2,10 +2,32 @@
 <h3>My Projects</h3>
 
 @for (post of projects; track $index) {
-    <div class="pro">
+    <div class="pro" 
+    (click)="showDetailProjects (post.name)">
+        
     <h3>{{ post.name}}</h3>
 </div>
-    <div class="references">
+}
+
+<div class="references">
+    @if (curentProject== projects[0].name) {
+        
+        <app-main-projects-detail   [singelProjects]="projects[0]">   </app-main-projects-detail> 
+    }
+    @else if (curentProject== projects[1].name) {
+
+        <app-main-projects-detail   [singelProjects]="projects[1]">   </app-main-projects-detail> 
+        
+    }
+
+</div>
+
+
+
+
+
+
+    <!-- <div class="references">
         <div class="description">
         <p><img src="../../../assets/img/Ellipse8forDescription.png" alt=""> About the project Duration: {{post.duration}} <br> <br> {{post.description}}</p>
         <p><img src="../../../assets/img/Ellipse8forDescription.png" alt="">Implementation Details <br> <br>{{post.implementationDetails}}</p>
@@ -25,5 +47,5 @@
     <button class="goo"> "{{ post.URL }}"</button>
     </div>    
     </div>
-    </div>
-}
+    </div> -->
+
