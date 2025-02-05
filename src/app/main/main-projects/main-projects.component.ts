@@ -22,6 +22,7 @@ export class MainProjectsComponent {
     technologiesC: string;
     image: string;
     URL: string;
+    
   }[] =[
     { name: "EL Pollo Loco",
       duration: "3 Weeks",
@@ -34,7 +35,8 @@ export class MainProjectsComponent {
 
 
       image: "/assets/img/Pollo.png",
-      URL: "url"
+      URL: "",
+      
     },
     { name: "Pokedex",
       duration: "3 Weeks",

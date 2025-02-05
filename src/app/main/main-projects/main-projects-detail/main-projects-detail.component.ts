@@ -22,6 +22,7 @@ export class MainProjectsDetailComponent {
   technologiesC: "/",
   image: "/assets/img/Pollo.png",
   URL: "url"
+  
 
  } 
 }

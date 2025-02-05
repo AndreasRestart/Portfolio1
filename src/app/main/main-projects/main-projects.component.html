@@ -1,51 +1,29 @@
 <p>main-projects works!</p>
 <h3>My Projects</h3>
+<div class="daynamic">
+    <div class="layout">
+
 
 @for (post of projects; track $index) {
     <div class="pro" 
-    (click)="showDetailProjects (post.name)">
-        
-    <h3>{{ post.name}}</h3>
+    (click)="showDetailProjects (post.name)"><p class="projectForText">{{ post.name }}</p>   
+  
+  
+
+    
 </div>
 }
 
+    </div>
+
 <div class="references">
     @if (curentProject== projects[0].name) {
-        
-        <app-main-projects-detail   [singelProjects]="projects[0]">   </app-main-projects-detail> 
+     <app-main-projects-detail   [singelProjects]="projects[0]">   </app-main-projects-detail> 
     }
     @else if (curentProject== projects[1].name) {
-
-        <app-main-projects-detail   [singelProjects]="projects[1]">   </app-main-projects-detail> 
-        
+    <app-main-projects-detail   [singelProjects]="projects[1]">   </app-main-projects-detail> 
     }
 
 </div>
 
-
-
-
-
-
-    <!-- <div class="references">
-        <div class="description">
-        <p><img src="../../../assets/img/Ellipse8forDescription.png" alt=""> About the project Duration: {{post.duration}} <br> <br> {{post.description}}</p>
-        <p><img src="../../../assets/img/Ellipse8forDescription.png" alt="">Implementation Details <br> <br>{{post.implementationDetails}}</p>
-        </div>
-        <div class="technologies">
-           <p>Technologies</p>
-        <div class="technologiesImage">
-        <a><img src="{{ post.technologiesBasic }}" alt=""> </a>
-        <a><img src="{{ post.technologiesA }}" alt=""></a>
-        <a><img src="{{ post.technologiesB }}" alt=""></a>
-        <a><img src="{{ post.technologiesC }}" alt=""></a>
-        </div>
-        
-        <img class="screenshot"  src="{{ post.image  }}" alt="Image of {{post.name}}"> 
-        
-    <div>
-    <button class="goo"> "{{ post.URL }}"</button>
-    </div>    
-    </div>
-    </div> -->
-
+</div> 
