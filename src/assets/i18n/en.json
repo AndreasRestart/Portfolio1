@@ -1,6 +1,15 @@
 {
     "footer":{
-      "hello": "hello {{value}}"
-    
-      }
+      "hello": "hello ",
+      "Legal notice" : "Legal notice "
+        },
+
+        "header" :{
+          "Why me": "Why me  ",
+          "Skills": "Skills ",
+          "Projects": "Projects ",
+          "Contact": "Contact " 
+        }
+
+
 }

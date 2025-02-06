@@ -6,6 +6,7 @@
     width: 100%;
    
 .layout{
+    height: 115px;
     display: flex;
     justify-content: flex-end;
     width: 981px;
@@ -24,10 +25,12 @@
     &:hover{
      background-image: url(../../../assets/img/Project1BackgroundImage.png);
     background-size: cover;
+   
 }
 }
 
 .pro{
+    
     display: flex;
     text-align: left;
     justify-content: start;

@@ -1,7 +1,15 @@
 {
     "footer":{
-        "hello ": "Guten Tag {{value}}"
+        "hello": "Guten Tag ",
+        "Legal notice": "Rechtliches "
   
+  },
+  
+  "header" :{
+    "Why me": "Warum ich  ",
+    "Skills": "Fähigkeiten ",
+    "Projects": "Projekte ",
+    "Contact": "Kontakt " 
   }
 
 }

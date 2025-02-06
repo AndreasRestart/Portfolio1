@@ -12,6 +12,7 @@
  flex-direction: column;
  height: 528px;
 }
+
 .Contact {
     width: 1000px;
     display: flex;
@@ -19,9 +20,12 @@
     align-items: center;
     flex-direction: row;
     height: 124px;
+    text-align: start;
    
 }
 .text {
+    display: flex;
+
     width: 445px;
     height: 124px;
 }
@@ -76,12 +80,12 @@
     background-color: transparent;
     border-color: #89BCD9;
 }
-.send {
-    width: 101px;
-    height: 48px;
-    border-radius: 30px;
+// .send {
+//     width: 101px;
+//     height: 48px;
+//     border-radius: 30px;
     
-}
+// }
 .contactForm{
     display: flex;
     justify-content: flex-start;
@@ -169,26 +173,51 @@ button.arrowDown{
     }
 
 }
-button.send {
-    width: 134px;
-    height: 48px;
+// button.send {
+//     width: 134px;
+//     height: 48px;
    
-    border-radius: 30px;
-    border-color: #89BCD9;
-    padding-top: 13px;
-    padding-right: 30px;
-    padding-bottom: 13px;
-    padding-left: 30px;
-    border: 1px solid #89BCD9;
+//     border-radius: 30px;
+//     border-color: #89BCD9;
+//     padding-top: 13px;
+//     padding-right: 30px;
+//     padding-bottom: 13px;
+//     padding-left: 30px;
+//     border: 1px solid #89BCD9;
  
-    color: #89BCD9;
-   background-color: transparent;
-   &:hover{
-        background-color: #262E34;
-        border-radius: 30px;
+//     color: #89BCD9;
+//    background-color: transparent;
+//    &:hover{
+//         background-color: #262E34;
+//         border-radius: 30px;
         
-   }
-}
+//    }
+// }
+
+
+.send{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  
+        width: 134px;
+        height: 48px;
+        border-radius: 30px;
+        border-color: #89BCD9;
+        padding-top: 13px;
+        padding-right: 30px;
+        padding-bottom: 13px;
+        padding-left: 30px;
+        border: 1px solid #89BCD9;
+        color: #89BCD9;
+     background-color: transparent;
+        &:hover{
+            background-color:#f7efe634;
+            border-radius: 30px;
+        }
+    
+    }
+
 
 .buttonText {
     display: flex;
@@ -208,4 +237,5 @@ button.send {
 .sendButton{
     display: flex;
     justify-content: flex-end;
+   
 }

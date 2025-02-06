@@ -9,7 +9,7 @@ import { MainProjectsDetailComponent } from './main-projects-detail/main-project
   styleUrl: './main-projects.component.scss'
 })
 export class MainProjectsComponent {
-  curentProject: string = "";
+  curentProject: string = "EL Pollo Loco";
 
   projects:{
     name: string;

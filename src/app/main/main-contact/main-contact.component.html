@@ -24,18 +24,18 @@
 <div class="nameMail">
     <div>
 <label for="name" class="contactName"><h4>Your name</h4></label>
-<input [(ngModel)]="contactDate.name" class="name" type="text" required>
+<input name="name" [(ngModel)]="contactDate.name" class="name" type="text" required>
     </div>
 
 <div>
 <label for="mail" class="contactEmail"><h4>Your Email</h4></label>
-<input [(ngModel)]="contactDate.mail" class="mail" type="text" required pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}">
+<input name="mail" [(ngModel)]="contactDate.mail" class="mail" type="text" required pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}">
 </div>
 
 </div>
 <div class="messageInput">
 <label for="message" class="contactmassage"><h4>Your Message</h4></label>
-<input #message="ngModel" minlength="4" [(ngModel)]="contactDate.massage" class="massage" type="text" required>
+<input name="massage" #message="ngModel" minlength="4" [(ngModel)]="contactDate.massage" class="massage" type="text" required>
 
 @if (!message.valid && message.touched && !message.disabled) {
     <span>Please enter a message</span>
