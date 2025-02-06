@@ -1,15 +1,62 @@
 {
-    "footer":{
-      "hello": "hello ",
-      "Legal notice" : "Legal notice "
+        "footer":{
+          "hello": "hello ",
+          "Legal notice" : "Legal notice "
         },
 
         "header" :{
           "Why me": "Why me  ",
           "Skills": "Skills ",
           "Projects": "Projects ",
+          "Contact": "Contact "
+        },
+        "main-why-me" :{
+          "Why me": "Why me  ",
+          "I am located in City Dinkelsbühl": "I am located in City Dinkelsbühl",
+          "I am open to work remote": "I am open to work remote",
+          "I am motivated to continuously learn new technologies and develop myself. My ability to solve complex problems and my passion for programming make me avaluable member for your team.": "I am motivated to continuously learn new technologies and develop myself. My ability to solve complex problems and my passion for programming make me a valuable member for your team. ", 
+          "Let´s talk": "Let´s talk"
+        },
+        "main-skills" :{
+          "My Skills":"My Skills",
+          "I am currently learning": "I am currently learning",
+          "Staying motivated to expand my IT skills requires a strategic approach, a curious mindset, and a commitment to lifelong learning": "Staying motivated to expand my IT skills requires a strategic approach, a curious mindset, and a commitment to lifelong learning "
+         
+        },
+        "main-projects" :{
+          "My Projects": "My Projects",
+          "About the project": "About the project",
+          " Duration": " Duration",
+          "Weeks": "Weeks ",
+          "Jump, run and throw game based on object-oriented approach. Help Pepe to find coins and tabasco salsa to fight against the crazy hen.":"Jump, run and throw game based on object-oriented approach. Help Pepe to find coins and tabasco salsa to fight against the crazy hen.",
+          "Implementation Details":"Implementation Details",
+          "Short text that describes your role or the workflow for this specific project. Let a recruiter know more about your knowledge and ability to work independently or collaboratively in a structured way.":"Short text that describes your role or the workflow for this specific project. Let a recruiter know more about your knowledge and ability to work independently or collaboratively in a structured way.",
+          "Technologies":"Technologies",
+          "Live Test":"Live Test",
+          "GitHub":"GitHub",
+          "Based on the PokéAPI a simple library that provides and catalogues pokemon information.":"Based on the PokéAPI a simple library that provides and catalogues pokemon information."
+        },
+
+        "main-references" :{
+          "Need a teamplayer? Here what my colleagues said about me": "Need a teamplayer? Here what my colleagues said about me ",
+          "Skills": "Skills ",
+          "Projects": "Projects ",
           "Contact": "Contact " 
+        },
+        "main-contact" :{
+          "Contact me": "Why me  ",
+          "Your name": "Your name",
+          "Your Email": "Your Email ",
+          "Your Message": "Your Message ",
+          "Please enter a message":"Please enter a message",
+          "I've read the privacy policy and agree to the processing of my as otulined.":"I've read the privacy policy and agree to the processing of my as otulined.", 
+          "Send":"Send"
         }
+
+
+
+
+
 
 
 }

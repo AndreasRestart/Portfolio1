@@ -1,11 +1,12 @@
 import { Component, Input } from '@angular/core';
+import { TranslateDirective, TranslatePipe } from '@ngx-translate/core';
 
 
 
 @Component({
   selector: 'app-main-projects-detail',
   standalone: true,
-  imports: [],
+  imports: [TranslatePipe, TranslateDirective],
   templateUrl: './main-projects-detail.component.html',
   styleUrl: './main-projects-detail.component.scss'
 })

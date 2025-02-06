@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { MainProjectsDetailComponent } from './main-projects-detail/main-projects-detail.component';
+import { TranslateDirective, TranslatePipe } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-main-projects',
   standalone: true,
-  imports: [MainProjectsDetailComponent],
+  imports: [MainProjectsDetailComponent,TranslateDirective,TranslatePipe],
   templateUrl: './main-projects.component.html',
   styleUrl: './main-projects.component.scss'
 })
@@ -32,8 +33,6 @@ export class MainProjectsComponent {
       technologiesA: "/assets/img/CSS.png",
       technologiesB: "/assets/img/Javascript.png",
       technologiesC: "/",
-
-
       image: "/assets/img/Pollo.png",
       URL: "",
       
@@ -47,7 +46,7 @@ export class MainProjectsComponent {
       technologiesB: "/assets/img/Javascript.png",
       technologiesC: "/assets/img/Api.png",
       image: "./",
-      URL: "url"
+      URL: ""
     },
     { name: "test",
       duration: "3 Weeks",
@@ -58,7 +57,7 @@ export class MainProjectsComponent {
       technologiesB: "/",
       technologiesC: "/",
       image: "./",
-      URL: "url"
+      URL: ""
     }
   ]
 showDetailProjects(name: string){
