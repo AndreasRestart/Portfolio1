@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { TranslateDirective, TranslatePipe } from '@ngx-translate/core';
+import { TranslateDirective, TranslatePipe, TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-header',
@@ -14,5 +14,9 @@ export class HeaderComponent {
   }
    scrolltobottom(){
     window.scrollTo(0, (window.document.body.scrollHeight - window.innerHeight));
+  }
+  constructor(private translate: TranslateService){}
+  changeLanguage(language: string){
+    this.translate.use(language);
   }
  }

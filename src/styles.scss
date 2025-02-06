@@ -9,11 +9,7 @@ body {
     margin: 0;
     box-sizing: border-box;
     background-color: #262E34;
-   
-    
     justify-content: space-between;
-
-
 }
 /* josefin-sans-regular - latin */
 @font-face {
@@ -78,3 +74,31 @@ body {
     align-items:flex-start ;
     
   }
+
+
+  @mixin layourStylinA(){
+    display: flex;
+    justify-content: center;
+  }
+  @mixin layoutStylingB(){
+    
+    display: flex;
+    flex-direction: column;
+  }
+  @mixin layoutStylingC(){
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  @mixin layoutStyling(){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @mixin layoutForIcon(){
+    width: 30px;
+    height: 30px;
+  }
+
+ 

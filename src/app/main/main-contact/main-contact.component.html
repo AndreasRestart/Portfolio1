@@ -2,63 +2,78 @@
 <!-- <div class="con"></div> -->
 <div class="c">
 
-<div class="contactMe">
-    <h3>Contact me</h3> 
-<div class="Contact">
-<div class="text">
-    <p>Still not sure if I am the right person for your project? Lorem ipsum dolor sit amet consectetur. Nat oqueg diam  prjfgh etium arcu sed senectus felis acm uris. Dui eget dict um.osuere pretium arcu sed senec tusfelis ac.
-</p>
-</div>
-<div class="mailTel">
-    &#9993;   E-mail: andreaswelker&#64;aol.com <br>
-    <br>
-    &#9990;   Tel: 0171 624 59 85
-  
+    <div class="contactMe">
 
-   <!-- <p class="Mail">E-mail: andreaswelker&#64;aol.com</p> -->
-</div>
-</div>
+        <h3> {{'main-contact.Contact me' | translate}}</h3>
+        <div class="Contact">
+            <div class="text">
 
-<div class="input">
-<form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm" class="contactForm">
-<div class="nameMail">
-    <div>
-<label for="name" class="contactName"><h4>Your name</h4></label>
-<input name="name" [(ngModel)]="contactDate.name" class="name" type="text" required>
+                <p> {{'main-contact.Still not sure if I am the right person for your project? Lorem ipsum dolor sit amet consectetur. Nat oqueg diam prjfgh etium arcu sed senectus felis acm uris. Dui eget dict um.osuere pretium arcu sed senec tusfelis ac.' | translate}}
+                    
+                </p>
+            </div>
+            <div class="mailTel">
+                &#9993; E-mail: andreaswelker&#64;aol.com <br>
+                <br>
+                &#9990; Tel: 0171 624 59 85
+
+            </div>
+        </div>
+
+        <div class="input">
+            <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm" class="contactForm">
+                <div class="nameMail">
+                    <div>
+
+                        <label for="name" class="contactName">
+                            <h4>{{'main-contact.Your name' | translate}}</h4>
+                        </label>
+                        <input name="name" [(ngModel)]="contactDate.name" class="name" type="text" required>
+                    </div>
+
+                    <div>
+
+                        <label for="mail" class="contactEmail">
+                            <h4> {{'main-contact.Your Email' | translate}}</h4>
+                        </label>
+                        <input name="mail" [(ngModel)]="contactDate.mail" class="mail" type="text" required
+                            pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}">
+                    </div>
+
+                </div>
+                <div class="messageInput">
+
+                    <label for="message" class="contactmassage">
+                        <h4> {{'main-contact.Your Message' | translate}}</h4>
+                    </label>
+                    <input name="massage" #message="ngModel" minlength="4" [(ngModel)]="contactDate.massage"
+                        class="massage" type="text" required>
+
+                    @if (!message.valid && message.touched && !message.disabled) {
+                    <span>{{'main-contact.Please enter a message' | translate}}</span>
+
+                    }
+                </div>
+            </form>
+        </div>
+
+        <div class="privcePolicy">
+            <div>
+
+                <p>{{'main-contact.I have read the privacy policy and agree to the processing of my as otulined.' |
+                    translate}}</p>
+            </div>
+
+            <div class="sendButton"><button class="send">Send</button>
+            </div>
+
+        </div>
+
+
     </div>
 
-<div>
-<label for="mail" class="contactEmail"><h4>Your Email</h4></label>
-<input name="mail" [(ngModel)]="contactDate.mail" class="mail" type="text" required pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}">
-</div>
-
-</div>
-<div class="messageInput">
-<label for="message" class="contactmassage"><h4>Your Message</h4></label>
-<input name="massage" #message="ngModel" minlength="4" [(ngModel)]="contactDate.massage" class="massage" type="text" required>
-
-@if (!message.valid && message.touched && !message.disabled) {
-    <span>Please enter a message</span>
-}
-</div>
-</form>
-</div>
-
-<div class="privcePolicy">
-    <div>
-        
-<p>I've read the privacy policy and agree to the processing of my as otulined.</p>
-</div>
-<div class="sendButton"><button class="send">Send</button>
-</div>
-
-</div>
-
-
-</div>
-
-<div class="arrow">
-    <button (click)="scrolltotop()" class="arrowDown"></button>
-    <!-- <img src="../../../../Portfolio/src/assets/img/Vector.png" alt=""> -->
+    <div class="arrow">
+        <button (click)="scrolltotop()" class="arrowDown"></button>
+        <!-- <img src="../../../../Portfolio/src/assets/img/Vector.png" alt=""> -->
     </div>
 </div>

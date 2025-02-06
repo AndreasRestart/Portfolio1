@@ -1,29 +1,25 @@
 <p>main-projects works!</p>
-<h3>My Projects</h3>
+<h3>{{'main-projects.My Projects' | translate}}</h3>
+
 <div class="daynamic">
     <div class="layout">
 
-
-@for (post of projects; track $index) {
-    <div class="pro" 
-    (click)="showDetailProjects (post.name)"><p class="projectForText">{{ post.name }}</p>   
-  
-  
-
-    
-</div>
-}
+        @for (post of projects; track $index) {
+        <div class="pro" (click)="showDetailProjects (post.name)">
+            <p class="projectForText">{{ post.name }}</p>
+        </div>
+        }
 
     </div>
 
-<div class="references">
-    @if (curentProject== projects[0].name) {
-     <app-main-projects-detail   [singelProjects]="projects[0]">   </app-main-projects-detail> 
-    }
-    @else if (curentProject== projects[1].name) {
-    <app-main-projects-detail   [singelProjects]="projects[1]">   </app-main-projects-detail> 
-    }
+    <div class="references">
+        @if (curentProject== projects[0].name) {
+        <app-main-projects-detail [singelProjects]="projects[0]"> </app-main-projects-detail>
+        }
+        @else if (curentProject== projects[1].name) {
+        <app-main-projects-detail [singelProjects]="projects[1]"> </app-main-projects-detail>
+        }
+
+    </div>
 
 </div>
-
-</div> 

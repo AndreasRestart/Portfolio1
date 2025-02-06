@@ -1,44 +1,42 @@
+@import '../../../styles.scss';
+
+
 .whyMe {
-    display: flex;
-    justify-content: center;
-gap: 52px;
+  @include layourStylinA();
+  gap: 52px;
 }
 
-.local{
-    color: white;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-
+.local {
+  color: white;
+  @include layourStylinA();
+  flex-direction: column;
 }
 .text {
-    width: 400px;
-    height: 176px;
-    display: flex;
-    flex-direction: column;
+  width: 400px;
+  height: 176px;
+  @include layoutStylingB();
+  
 }
 
 button {
-    width: 134px;
-    height: 48px;
+  width: 153px;
+  height: 48px;
+  border-radius: 30px;
+  border-color: #89bcd9;
+  padding-top: 13px;
+  padding-right: 30px;
+  padding-bottom: 13px;
+  padding-left: 30px;
+  border: 1px solid #89bcd9;
+  color: #89bcd9;
+  background-color: transparent;
+  &:hover {
+    background-color: #f7efe634;
     border-radius: 30px;
-    border-color: #89BCD9;
-    padding-top: 13px;
-    padding-right: 30px;
-    padding-bottom: 13px;
-    padding-left: 30px;
-    border: 1px solid #89BCD9;
-    color: #89BCD9;
- background-color: transparent;
-    &:hover{
-        background-color:#f7efe634;
-        border-radius: 30px;
-    }
-
+  }
 }
 
-.talk{
-    display: flex;
-    justify-content: flex-end;
-
+.talk {
+  display: flex;
+  justify-content: flex-end;
 }

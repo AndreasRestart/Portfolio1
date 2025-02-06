@@ -1,22 +1,32 @@
-
 <div class="references">
     <div class="description">
-    <p><img src="../../../assets/img/Ellipse8forDescription.png" alt=""> About the project Duration: {{singelProjects.duration}} <br> <br> {{singelProjects.description}}</p>
-    <p><img src="../../../assets/img/Ellipse8forDescription.png" alt="">Implementation Details <br> <br>{{singelProjects.implementationDetails}}</p>
+        <p><img src="../../../assets/img/Ellipse8forDescription.png" alt="">
+        {{'main-projects-detail.About the project Duration:' | translate}}
+        {{'main-projects-detail.Duration:'}}
+        
+        
+        
+        {{singelProjects.duration  | translate }} <br> <br> {{singelProjects.description}}</p>
+        <p><img src="../../../assets/img/Ellipse8forDescription.png" alt="">Implementation Details <br>
+            <br>{{singelProjects.implementationDetails}}</p>
     </div>
     <div class="technologies">
-       <p>Technologies</p>
-    <div class="technologiesImage">
-    <a><img src="{{ singelProjects.technologiesBasic }}" alt=""> </a>
-    <a><img src="{{ singelProjects.technologiesA }}" alt=""></a>
-    <a><img src="{{ singelProjects.technologiesB }}" alt=""></a>
-    <a><img src="{{ singelProjects.technologiesC }}" alt=""></a>
+        <div>
+            <p>{{'main-projects.Technologies' | translate}}</p>
+        </div>
+
+        <div class="technologiesImage">
+            <a><img src="{{ singelProjects.technologiesBasic }}" alt=""> </a>
+            <a><img src="{{ singelProjects.technologiesA }}" alt=""></a>
+            <a><img src="{{ singelProjects.technologiesB }}" alt=""></a>
+            <a><img src="{{ singelProjects.technologiesC }}" alt=""></a>
+        </div>
+
+        <img class="screenshot" src="{{ singelProjects.image  }}" alt="Image of {{singelProjects.name}}">
+
+        <div class="goo">
+            <button> {{'main-projects.Live Test' | translate}} {{ singelProjects.URL }}</button> 
+            <button>GitHub {{singelProjects.URL }}</button>
+        </div>
     </div>
-    
-    <img class="screenshot"  src="{{ singelProjects.image  }}" alt="Image of {{singelProjects.name}}"> 
-    
-<div class="goo" >
-<button >Live Test {{ singelProjects.URL }}</button> <button >GitHub {{ singelProjects.URL }}</button> 
-</div>    
-</div>
 </div>

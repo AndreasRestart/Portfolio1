@@ -6,31 +6,34 @@
 
     <div class="start">
 
-    <div class="subject1">
+        <div class="subject1">
 
-        <div class="socialIcon" id="section1">
-            <div>
-            <p><a href=Mail><img class="email" src="./assets/img/Emailbutton.png" alt=""> </a></p>
+            <div class="socialIcon" id="section1">
+                <div>
+                    <p><a href=Mail><img class="email" src="./assets/img/Emailbutton.png" alt=""> </a></p>
+                </div>
+                <div>
+                    <p><a href="https://github.com/AndreasRestart"><img class="discord"
+                                src="./assets/img/Githubbutton.png" alt=""></a></p>
+                </div>
+                <div>
+                    <p><a href="http://www.linkedin.com/in/andreaswelker"> <img class="LinkedIn"
+                                src="./assets/img/Linkedinbutton.png" alt=""></a></p>
+                </div>
             </div>
-        <div><p><a href="https://github.com/AndreasRestart"><img class="discord" src="./assets/img/Githubbutton.png" alt=""></a></p>
         </div>
-        <div>
-             <p><a href="http://www.linkedin.com/in/andreaswelker"> <img class="LinkedIn" src="./assets/img/Linkedinbutton.png" alt=""></a></p>
-        </div>
-            </div>
-    </div>    
 
         <div class="main">
             <div class="Logo">
                 <!-- <img src="../../assets/img/Frame533.png" alt=""> -->
-            <!-- <img class="LOGO" src="./assets/img/LOGO.png" alt=""> -->
-        </div>
+                <!-- <img class="LOGO" src="./assets/img/LOGO.png" alt=""> -->
+            </div>
             <h1>Andreas Welker</h1>
             <h2>FRONTEND DEVEOLPER</h2>
             <a href="#mee">
-            <button class="arrowDown" ></button>
+                <button class="arrowDown"></button>
             </a>
-           <!-- <img src="../../../../Portfolio/src/assets/img/Vector.png" alt=""> -->
+
 
         </div>
 
@@ -40,19 +43,19 @@
 
 <div class="menuBar">
     <div class="logoDarkMode">
-        <img class="logoLine" (click)="scrolltotop()"  src="./assets/img/Logodarkmob.png" alt="">
+        <img class="logoLine" (click)="scrolltotop()" src="./assets/img/Logodarkmob.png" alt="">
     </div>
     <div class="menuSystem">
-    
-       <p><a href="#mee">{{'header.Why me' | translate }}</a></p>
-       <p><a href="#skills">{{'header.Skills' | translate }}</a></p>
-       <p (click)="scrolltobottom()" ><a href="#pro">{{'header.Projects' | translate }}</a></p>
-       <p (click)="scrolltobottom()" ><a href="#con">{{'header.Contact' | translate }}</a></p>
+
+        <p><a href="#mee">{{'header.Why me' | translate }}</a></p>
+        <p><a href="#skills">{{'header.Skills' | translate }}</a></p>
+        <p (click)="scrolltobottom()"><a href="#pro">{{'header.Projects' | translate }}</a></p>
+        <p (click)="scrolltobottom()"><a href="#con">{{'header.Contact' | translate }}</a></p>
     </div>
 
     <div class="changeLangugageWeb">
-        <Button>DE</Button>
-        <Button>EN</Button>
+        <Button (click)="changeLanguage('de')">DE</Button>
+        <Button (click)="changeLanguage('en')">EN</Button>
     </div>
 
 </div>

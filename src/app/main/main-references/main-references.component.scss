@@ -1,36 +1,33 @@
-.references{
-    width: 100%;
-    height: 479px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
+@import '../../../styles.scss';
+
+.references {
+  width: 100%;
+  height: 479px;
+  text-align: center;
+  @include layourStylinA();
+  flex-direction: column;
 }
-.shapecollected{
-    height: 385px;
-    display: flex;
-    justify-content: center;
-        text-align: center;
-        flex-direction: row;
+.shapecollected {
+  height: 385px;
+  @include layourStylinA();
+  text-align: center;
+  flex-direction: row;
 }
 
-.shape{
-width: 378px;
-height: 383px;
-display: flex;
-justify-content: center;
-flex-direction: column;
-align-items: center;
-background-size: contain;
-background-position: center;
-background-image: url(../../../assets/img/Shaperefer.png);
-transition: backgorund-image 0.70s ease;
-background-repeat: no-repeat;
-&:hover{
+.shape {
+  width: 378px;
+  height: 383px;
+  @include layourStylinA();
+  flex-direction: column;
+  align-items: center;
+  background-size: contain;
+  background-position: center;
+  background-image: url(../../../assets/img/Shaperefer.png);
+  transition: backgorund-image 0.7s ease;
+  background-repeat: no-repeat;
+  &:hover {
     background-image: url(../../../assets/img/Ellipse24ref.png);
     background-repeat: no-repeat;
     // rotate: -7deg;
-    
-}
-
+  }
 }

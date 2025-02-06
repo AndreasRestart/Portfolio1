@@ -1,230 +1,199 @@
-.heroSection {
-    width: 100%;
-    height: 685px;
+  @mixin layoutStyling(){
     display: flex;
     justify-content: center;
-    
+    align-items: center;
+  }
+
+
+.heroSection {
+  width: 100%;
+  height: 685px;
+  display: flex;
+  justify-content: center;
 }
 .subject {
-    width: 588px;
-    height: 624px;
-    display: flex;
-    justify-content: center;
-    background-size: contain;
-    background-position: center;
-    background-image: url('../../../../Portfolio/src/assets/img/Property1Default.png');
-    transition: background-image 0.70s ease;
-    background-repeat: no-repeat;
+  width: 588px;
+  height: 624px;
+  display: flex;
+  justify-content: center;
+  background-size: contain;
+  background-position: center;
+  background-image: url("../../../../Portfolio/src/assets/img/Property1Default.png");
+  transition: background-image 0.7s ease;
+  background-repeat: no-repeat;
 
-    &:hover{
-        background-image: url('../../../../Portfolio/src/assets/img/hoverHead.png');
-        // rotate: (7deg);
-    
-     }
-    // background-size: 100%;
-    
+  &:hover {
+    background-image: url("../../../../Portfolio/src/assets/img/hoverHead.png");
+    // rotate: (7deg);
+  }
+  // background-size: 100%;
 }
 .shape {
-    width: 600px;
-    height: 619px;
-    display: flex;
-    justify-content: flex-start;
-    position: relative;
-  
-
+  width: 600px;
+  height: 619px;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
 }
 .subtract {
-    width: 447px;
-    height: 688px;
-    display: flex;
-    justify-content: flex-start;
-    position: absolute;
-
+  width: 447px;
+  height: 688px;
+  display: flex;
+  justify-content: flex-start;
+  position: absolute;
 }
 .start {
-    width: 598px;
-    height: 688px;
-
+  width: 598px;
+  height: 688px;
 }
 
 .subject1 {
-    
-    display: flex;
-    align-items: flex-start;
-    justify-content: flex-end;
-    
-  
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
 }
 .socialIcon {
-   gap:16px;
-display: flex;
-justify-content: flex-end;
-flex-direction: column;
-     p{
-        &:hover{
-           
-            border-radius: 20px;
-            height: 30px;
-        }
-    }   
+  gap: 16px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  p {
+    height: 56px;
+  }
+  a {
+    &:hover {
+      border-radius: 20px;
+      height: 30px;
+    }
+  }
 }
 
-
 .email {
-    width: 30px;
-    height: 30px;
-    &:hover{
-        background-image: url(../../../src/assets/img/Propertyhoverblue.png);
-    }
+  width: 30px;
+  height: 30px;
+  &:hover {
+    background-image: url(../../../src/assets/img/Propertyhoverblue.png);
+  }
 }
 
 .discord {
-    width: 30px;
-    height: 30px;
-    &:hover{
-        background-image: url(../../../src/assets/img/PropertyGitHub.png);
-    }
-    
+  width: 30px;
+  height: 30px;
+  &:hover {
+    background-image: url(../../../src/assets/img/PropertyGitHub.png);
+  }
 }
 .LinkedIn {
-    width: 30px;
-    height: 30px;
-    &:hover{
-        background-image: url(../../../src/assets/img/PropertyLinkedIN.png);
-    }
+  width: 30px;
+  height: 30px;
+  &:hover {
+    background-image: url(../../../src/assets/img/PropertyLinkedIN.png);
+  }
 }
 
 .main {
-    width: 610px;
-    height: 380px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    // background-image: url(../../assets/img/LOGO.png);
-
-
+  width: 610px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  // background-image: url(../../assets/img/LOGO.png);
 }
 
 .Logo {
-    width: 52px;
-    height: 58px;
-    display: flex;
-    justify-content: center;
-    background-image: url( ../../assets/img/LOGO2.png);
-    background-size: cover;
-    transition:background-image 0.70s ease;
+  width: 52px;
+  height: 58px;
+  display: flex;
+  justify-content: center;
+  background-image: url(../../assets/img/LOGO2.png);
+  background-size: cover;
+  transition: background-image 0.7s ease;
 
-        &:hover{
-        background-image: url( ../../assets/img/PropertyHover2.png);
-        // background-size: 100%;
-        // width: 48px;
-        // height: 30px;
-
-    }
-    
+  &:hover {
+    background-image: url(../../assets/img/PropertyHover2.png);
+  }
 }
 
-
-h1 {color: white;
+h1 {
+  color: white;
 }
 h2 {
-    color: white;
+  color: white;
 }
 
-
 button {
-    // width: 134px;
-    // height: 48px;
-    // top: 87px;
-    // left: 20px;
+  border-radius: 30px;
+  border-color: #89bcd9;
+  border: 1px solid #89bcd9;
+  background-image: url("../../assets/img/Arrowdown.png");
+  background-color: transparent;
+  &:hover {
+    background-color: #262e34;
     border-radius: 30px;
-    border-color: #89BCD9;
-    // padding-top: 13px;
-    // padding-right: 30px;
-    // padding-bottom: 13px;
-    // padding-left: 30px;
-    border: 1px solid #89BCD9;
-    // color: #89BCD9;
-    background-image: url('../../assets/img/Arrowdown.png');
-    // background-repeat: repeat;
-   
-  
- background-color: transparent;
-    &:hover{
-        background-color:#262E34;
-        border-radius: 30px;
-    }
-
+  }
 }
 
 .arrowDown {
-    width: 38px;
-    height: 89px;
-    &:hover{
-        background-color:#f7efe634;
-        border-radius: 25px;
-    }
+  width: 38px;
+  height: 89px;
+  &:hover {
+    background-color: #f7efe634;
+    border-radius: 25px;
+  }
 }
 
-.menuBar{
-    gap: 196px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 100%;
-    height: 104px;
-    background-color: #89bcd9;
-    position: sticky;
-    top: 0;
-    font-size: 26px;
-    }
-    
- 
+.menuBar {
+  gap: 196px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 104px;
+  background-color: #89bcd9;
+  position: sticky;
+  top: 0;
+  font-size: 26px;
+}
+
 .logoLine {
-    width: 58px;
-    height: 72px;
-}  
+  width: 58px;
+  height: 72px;
+}
 
 .menuSystem {
-    width: 677px;
-    height: 26px;
-    
-    
-    cursor: pointer;
-    display: flex;
-   
-    justify-content: space-around;
-    align-items: center;
-    gap: 25px;
-    p{
-        color: black;
-        
+  width: 677px;
+  height: 26px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 25px;
+  p {
+    width: 100px;
+    &:focus {
+      height: 35px;
+      background-image: url(../../assets/img/BlackLogo.png);
     }
-    a{
-        text-decoration: none;
-        color: black;
-        &:hover{
-           
-            color:white;
-            background-image: url(../../assets/img/Ellipse24.png);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            width: 83px;
-            height: 56px; 
-            // z-index: 10;
-        }
-    }
-    p{
-        &:focus{
-            background-image: url(../../assets/img/BlackLogo.png
-            );
-        }
-    }
+    a {
+      text-decoration: none;
+      color: black;
 
+      &:hover {
+        color: white;
+        background-image: url(../../assets/img/Ellipse24.png);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 83px;
+        height: 56px;
+        // z-index: 10;
+      }
+    }
+  }
 }
 .a {
-    text-decoration: none;
-    color: black;
+
+  text-decoration: none;
+  color: black;
 }

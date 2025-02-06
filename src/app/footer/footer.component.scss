@@ -1,61 +1,59 @@
+@import'../../styles.scss';
+
+
+
 .footer {
-    width: 100%;
-    height: 200px;
-    background-color: #89bcd9;
-    display: flex;
+  width: 100%;
+  height: 200px;
+  background-color: #89bcd9;
+  display: flex;
     justify-content: center;
     align-items: center;
-    gap: 414px;
+  gap: 414px;
 }
-
 
 
 .socialIconFooter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: black;
-    gap: 16px;
-    a{
-        &:hover{
-            border-radius: 20px;
-            height: 30px;
-            background-color:white;
-        }
+  @include layoutStyling();
+  color: black;
+  gap: 16px;
+  a {
+    height: 35px;
+    &:hover {
+      border-radius: 20px;
+      height: 30px;
+      background-color: white;
     }
+  }
 }
 
 .email {
-    width: 30px;
-    height: 30px;
-    &:hover{
-    
-        background-image: url(../../../src/assets/img/Propertyhoverblue.png);
-    }
+  @include layoutForIcon();
+  
+  &:hover {
+    background-image: url(../../../src/assets/img/Propertyhoverblue.png);
+  }
 }
 
 .discord {
-    width: 30px;
-    height: 30px;
-    &:hover{
-        background-image: url(../../../src/assets/img/PropertyGitHub.png);
-    }
-    
+  @include layoutForIcon();
+  &:hover {
+    background-image: url(../../../src/assets/img/PropertyGitHub.png);
+  }
 }
+
 .LinkedIn {
-    width: 30px;
-    height: 30px;
-    &:hover{
-        background-image: url(../../../src/assets/img/PropertyLinkedIN.png);
-    }
+  @include layoutForIcon();
+  &:hover {
+    background-image: url(../../../src/assets/img/PropertyLinkedIN.png);
+  }
 }
-p{
-    color: black;
- 
-  
-    
+
+p {
+  height: 35px;
+  color: black;
 }
-a{
-    text-decoration: none;
-    color: black;
+a {
+  text-decoration: none;
+  color: black;
 }

@@ -1,61 +1,66 @@
 {
-    "footer":{
-        "hello": "Guten Tag ",
-        "Legal notice": "Rechtliches "
-    },
-  
-  "header" :{
+  "footer": {
+    "hello": "Guten Tag ",
+    "Legal notice": "Rechtliches "
+  },
+
+  "header": {
     "Why me": "Warum ich  ",
     "Skills": "Fähigkeiten ",
     "Projects": "Projekte ",
-    "Contact": "Kontakt " 
+    "Contact": "Kontakt "
   },
-  
-  "main-why-me" :{
+
+  "main-why-me": {
     "Why me": "Warum ich   ",
-    "I am motivated to continuously learn new technologies and develop myself. My ability to solve complex problems and my passion for programming make me avaluable member for your team.": "Ich bin motiviert, kontinuierlich neue Technologien zu lernen und mich selbst zu entwickeln. Meine Fähigkeit, komplexe Probleme und meine Leidenschaft für das Programmieren zu lösen, machen mich ein gütiges Mitglied für Ihr Team.", 
+    "I am motivated to continuously learn new technologies and develop myself. My ability to solve complex problems and my passion for programming make me avaluable member for your team.": "Ich bin motiviert, kontinuierlich neue Technologien zu lernen und mich selbst zu entwickeln. Meine Fähigkeit, komplexe Probleme und meine Leidenschaft für das Programmieren zu lösen, machen mich ein gütiges Mitglied für Ihr Team.",
     "Let´s talk": "Lass uns reden"
   },
 
-  "main-skills" :{
-    "My Skills":"Meine Fähigkeiten",
+  "main-skills": {
+    "My Skills": "Meine Fähigkeiten",
     "I am currently learning": "Ich lerne gerade",
     "Staying motivated to expand my IT skills requires a strategic approach, a curious mindset, and a commitment to lifelong learning": "Bleiben motiviert, meine IT -Fähigkeiten zu erweitern "
-    
   },
-
-  "main-projects" :{
+  "main-projects-detail": {
     "My Projects": "Meine Projekte",
-    "About the project": "Über das Projkt",
-    " Duration": " Dauer",
+    "About the project": "Über das Projekt",
+    "Duration": " Dauer",
     "Weeks": "Wochen ",
-    "Jump, run and throw game based on object-oriented approach. Help Pepe to find coins and tabasco salsa to fight against the crazy hen.":"Springen, rennen und Spielen basierend auf objektorientiertem Ansatz. Helfen Sie Pepe, Münzen und Tabasco Salsa zu finden, um gegen die verrückte Henne zu kämpfen.",
-    "Implementation Details":"Implementierungsdetails",
-    "":"",
-    "Technologies":"Technologien",
-    "Live Test":"Teste es",
-    "GitHub":"GitHub",
-    "Based on the PokéAPI a simple library that provides and catalogues pokemon information.":"Basierend auf dem Pokéapi eine einfache Bibliothek, die Pokemon -Informationen bereitstellt und katalogisiert."
+    "Jump, run and throw game based on object-oriented approach. Help Pepe to find coins and tabasco salsa to fight against the crazy hen.": "Springen, rennen und Spielen basierend auf objektorientiertem Ansatz. Helfen Sie Pepe, Münzen und Tabasco Salsa zu finden, um gegen die verrückte Henne zu kämpfen.",
+    "Implementation Details": "Implementierungsdetails",
+    "": "",
+    "Technologies": "Technologien",
+    "Live Test": "Teste es",
+    "GitHub": "GitHub",
+    "Based on the PokéAPI a simple library that provides and catalogues pokemon information.": "Basierend auf dem Pokéapi eine einfache Bibliothek, die Pokemon -Informationen bereitstellt und katalogisiert."
   },
 
-  "main-references" :{
-    "Need a teamplayer? Here what my colleagues said about me": "Benötigen Sie einen Teamplayer? Hier, was meine Kollegen über mich gesagt haben"
-   
+  "main-projects": {
+    "My Projects": "Meine Projekte",
+    "About the project": "Über das Projekt",
+    "Duration": " Dauer",
+    "Weeks": "Wochen ",
+    "Jump, run and throw game based on object-oriented approach. Help Pepe to find coins and tabasco salsa to fight against the crazy hen.": "Springen, rennen und Spielen basierend auf objektorientiertem Ansatz. Helfen Sie Pepe, Münzen und Tabasco Salsa zu finden, um gegen die verrückte Henne zu kämpfen.",
+    "Implementation Details": "Implementierungsdetails",
+    "": "",
+    "Technologies": "Technologien",
+    "Live Test": "Teste es",
+    "GitHub": "GitHub",
+    "Based on the PokéAPI a simple library that provides and catalogues pokemon information.": "Basierend auf dem Pokéapi eine einfache Bibliothek, die Pokemon -Informationen bereitstellt und katalogisiert."
   },
-  "main-contact" :{
+
+  "main-references": {
+    "Need a teamplayer? Here what my colleagues said about me": "Benötigen Sie einen Teamplayer? Hier, was meine Kollegen über mich gesagt haben"
+  },
+  "main-contact": {
     "Contact me": "Kontaktieren mich ",
+    "Still not sure if I am the right person for your project? Lorem ipsum dolor sit amet consectetur. Nat oqueg diam prjfgh etium arcu sed senectus felis acm uris. Dui eget dict um.osuere pretium arcu sed senec tusfelis ac.": "",
     "Your name": "Dein Name",
     "Your Email": "Deine E-Mail ",
     "Your Message": "Deine Nachrichten ",
-    "Please enter a message":"Bitte geben Sie eine Nachricht ein",
-    "I've read the privacy policy and agree to the processing of my as otulined.":"Ich habe die Datenschutzrichtlinie gelesen und stimmte der Verarbeitung von My As Otulined zu.", 
-    "Send":"Send"
+    "Please enter a message": "Bitte geben Sie eine Nachricht ein",
+    "I have read the privacy policy and agree to the processing of my as otulined.": "Ich habe die Datenschutzrichtlinie gelesen und stimmte der Verarbeitung von My As Otulined zu.",
+    "Send": "Send"
   }
-
-
-
-
-
-
-
 }
