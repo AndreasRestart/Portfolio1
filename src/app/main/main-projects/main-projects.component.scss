@@ -1,6 +1,4 @@
-
-@use'../../../styles.scss' as*;
-
+@use "../../../styles.scss" as *;
 
 .daynamic {
   @include layourStylinA();
@@ -77,7 +75,6 @@ a {
   width: 132px;
   height: 48px;
   gap: 40px;
-  
 }
 .technologiesImage {
   @include layourStylinA();

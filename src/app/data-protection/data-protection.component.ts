@@ -11,5 +11,8 @@ import { MenuBarComponent } from '../menu-bar/menu-bar.component';
   styleUrl: './data-protection.component.scss'
 })
 export class DataProtectionComponent {
-
+  scrolltotop(){
+    window.scrollTo({top:0,behavior:"smooth"})
+  }
 }
+

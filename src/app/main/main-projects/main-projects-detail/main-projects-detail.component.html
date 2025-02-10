@@ -1,14 +1,15 @@
 <div class="references">
     <div class="description">
         <p><img src="../../../assets/img/Ellipse8forDescription.png" alt="">
-        {{'main-projects-detail.About the project Duration:' | translate}}
-        {{'main-projects-detail.Duration:'}}
-        
-        
-        
-        {{singelProjects.duration  | translate }} <br> <br> {{singelProjects.description}}</p>
+            {{'main-projects-detail.About the project Duration:' | translate}}
+            {{'main-projects-detail.Duration:'}}
+
+
+
+            {{singelProjects.duration | translate }} <br> <br> {{singelProjects.description}}</p>
         <p><img src="../../../assets/img/Ellipse8forDescription.png" alt="">Implementation Details <br>
-            <br>{{singelProjects.implementationDetails}}</p>
+            <br>{{singelProjects.implementationDetails}}
+        </p>
     </div>
     <div class="technologies">
         <div>
@@ -25,7 +26,7 @@
         <img class="screenshot" src="{{ singelProjects.image  }}" alt="Image of {{singelProjects.name}}">
 
         <div class="goo">
-            <button> {{'main-projects.Live Test' | translate}} {{ singelProjects.URL }}</button> 
+            <button> {{'main-projects.Live Test' | translate}} {{ singelProjects.URL }}</button>
             <button>GitHub {{singelProjects.URL }}</button>
         </div>
     </div>

@@ -69,5 +69,11 @@
     "Please enter a message": "Bitte geben Sie eine Nachricht ein",
     "I have read the privacy policy and agree to the processing of my as otulined.": "Ich habe die Datenschutzrichtlinie gelesen und stimmte der Verarbeitung von My As Otulined zu.",
     "Send": "Send"
+  },
+  "imprint": {
+    "imprint":"Impressum",
+    "contact":"Kontakt",
+    "Editorial responsible":"Redaktionell verantwortlich",
+    "source":"Quelle"
   }
 }

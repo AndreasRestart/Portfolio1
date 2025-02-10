@@ -1,5 +1,4 @@
-@import '../../../styles.scss';
-
+@import "../../../styles.scss";
 
 .whyMe {
   @include layourStylinA();
@@ -7,7 +6,6 @@
 }
 
 .local {
-  
   color: white;
   @include layourStylinA();
   flex-direction: column;
@@ -16,27 +14,24 @@
   width: 400px;
   height: 176px;
   @include layoutStylingB();
-  
 }
-.dialog{
+.dialog {
   width: 550px;
   display: flex;
   justify-content: center;
   flex-direction: row;
   gap: 10px;
 }
-.textLocated{
-
+.textLocated {
   display: flex;
-
   align-items: center;
-  width:394px;
+  width: 394px;
   display: flex;
   gap: 11px;
 }
 
 .imgLocated {
-width: 250px;
+  width: 250px;
 }
 
 button {
@@ -61,12 +56,11 @@ button {
   display: flex;
   justify-content: flex-end;
 }
-.blue{
+.blue {
   color: #89bcd9;
   font-size: 25px;
 }
 
 img {
   display: flex;
-
 }
