@@ -1,6 +1,8 @@
 {
   "footer": {
     "hello": "Guten Tag ",
+    "imprint":"Impressum",
+    "Data protection":"Datenschutz",
     "Legal notice": "Rechtliches "
   },
 
@@ -12,8 +14,13 @@
   },
 
   "main-why-me": {
-    "Why me": "Warum ich   ",
-    "I am motivated to continuously learn new technologies and develop myself. My ability to solve complex problems and my passion for programming make me avaluable member for your team.": "Ich bin motiviert, kontinuierlich neue Technologien zu lernen und mich selbst zu entwickeln. Meine Fähigkeit, komplexe Probleme und meine Leidenschaft für das Programmieren zu lösen, machen mich ein gütiges Mitglied für Ihr Team.",
+    "Why me": "Warum ich",
+    "I am":" Ich ",
+    "located in City":"befinde mich aktuell in ",
+    "Dinkelsbühl":" Dinkelsbühl",
+    "open to work remote": "bin bereit in Remout zu arbeiten",
+    "I am open to tork remote":"Ich bin bereit in Remout zu arbeiten",
+    "I am motivated to continuously learn new technologies and develop myself. My ability to solve complex problems and my passion for programming make me a valuable member for your team.": "Ich bin motiviert, kontinuierlich neue Technologien zu lernen und mich selbst zu entwickeln. Meine Fähigkeit, komplexe Probleme und meine Leidenschaft für das Programmieren zu lösen, machen mich ein gütiges Mitglied für Ihr Team.",
     "Let´s talk": "Lass uns reden"
   },
 
@@ -55,7 +62,7 @@
   },
   "main-contact": {
     "Contact me": "Kontaktieren mich ",
-    "Still not sure if I am the right person for your project? Lorem ipsum dolor sit amet consectetur. Nat oqueg diam prjfgh etium arcu sed senectus felis acm uris. Dui eget dict um.osuere pretium arcu sed senec tusfelis ac.": "",
+    "Please contact me using this form. I look forward to hearing from you, experiencing your concerns and accompanying you in your projects.": "Kontaktieren Sie mich gerne über dieses Formular. Ich freue mich, von Ihnen zu hören, Ihr Anliegen zu erfahren und Sie bei Ihren Projekten zu begleiten.",
     "Your name": "Dein Name",
     "Your Email": "Deine E-Mail ",
     "Your Message": "Deine Nachrichten ",

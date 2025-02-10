@@ -1,9 +1,4 @@
-  @mixin layoutStyling(){
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
+@use "../../styles.scss" as *;
 
 .heroSection {
   width: 100%;
@@ -53,12 +48,11 @@
   justify-content: flex-end;
 }
 .socialIcon {
-  gap: 16px;
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
   p {
-    height: 56px;
+    height: 25px;
   }
   a {
     &:hover {
@@ -94,11 +88,8 @@
 .main {
   width: 610px;
   height: 380px;
-  display: flex;
+  @include layoutStyling(flex-start);
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  // background-image: url(../../assets/img/LOGO.png);
 }
 
 .Logo {
@@ -193,7 +184,38 @@ button {
   }
 }
 .a {
-
   text-decoration: none;
   color: black;
+}
+
+.changeLangugageWeb {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 160px;
+  height: 100%;
+  > div {
+    p {
+      margin: 0;
+    }
+    height: 37px;
+    width: 37px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &:hover {
+      background-image: url(../../../../Portfolio/src/assets/img/EllipseForTranslate.png);
+      background-size: 100% 100%;
+    
+    }
+  }
+}
+
+.buttonForTranslateDE {
+  color: #262e34;
+}
+
+.buttonForTranslateEN {
+  color: white;
 }

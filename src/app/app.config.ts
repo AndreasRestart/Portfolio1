@@ -25,15 +25,7 @@ export const appConfig: ApplicationConfig = {
             deps: [HttpClient],
           },
      })
-    // provideZoneChangeDetection({ eventCoalescing: true }),
-    // provideHttpClient(),
-    // importProvidersFrom([TranslateModule.forRoot({
-    //   loader: {
-    //     provide: TranslateLoader,
-    //     useFactory: httpLoaderFactory,
-    //     deps: [HttpClient],
-    //   },
-    // })])
+   
   ],
     
 };

@@ -1,6 +1,8 @@
 {
   "footer": {
     "hello": "hello ",
+    "imprint":"imprint",
+    "Data protection":"Data protection",
     "Legal notice": "Legal notice "
   },
 
@@ -11,10 +13,13 @@
     "Contact": "Contact "
   },
   "main-why-me": {
-    "Why me": "Why me  ",
-    "I am located in City Dinkelsbühl": "I am located in City Dinkelsbühl",
-    "I am open to work remote": "I am open to work remote",
-    "I am motivated to continuously learn new technologies and develop myself. My ability to solve complex problems and my passion for programming make me avaluable member for your team.": "I am motivated to continuously learn new technologies and develop myself. My ability to solve complex problems and my passion for programming make me a valuable member for your team. ",
+    "Why me": "Why me",
+    "I am":"I am",
+    "located in City":"located in City",
+    "Dinkelsbühl":" Dinkelsbühl",
+    "open to work remote": "open to work remote",
+    "I am motivated to continuously learn new technologies and develop myself. My ability to solve complex problems and my passion for programming make me a valuable member for your team.": "I am motivated to continuously learn new technologies and develop myself. My ability to solve complex problems and my passion for programming make me a valuable member for your team.",
+
     "Let´s talk": "Let´s talk"
   },
   "main-skills": {
@@ -59,7 +64,7 @@
   },
   "main-contact": {
     "Contact me": "Contact me  ",
-    "Still not sure if I am the right person for your project? Lorem ipsum dolor sit amet consectetur. Nat oqueg diam prjfgh etium arcu sed senectus felis acm uris. Dui eget dict um.osuere pretium arcu sed senec tusfelis ac.": "Still not sure if I am the right person for your project? Lorem ipsum dolor sit amet consectetur. Nat oqueg diam prjfgh etium arcu sed senectus felis acm uris. Dui eget dict um.osuere pretium arcu sed senec tusfelis ac.",
+    "Please contact me using this form. I look forward to hearing from you, experiencing your concerns and accompanying you in your projects.": "Please contact me using this form. I look forward to hearing from you, experiencing your concerns and accompanying you in your projects.",
     "Your name": "Your name",
     "Your Email": "Your Email ",
     "Your Message": "Your Message ",

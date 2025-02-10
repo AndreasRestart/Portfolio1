@@ -91,10 +91,10 @@ body {
     justify-content: flex-start;
     align-items: center;
   }
-  @mixin layoutStyling(){
+  @mixin layoutStyling($jc:center,$ai:center){
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: $jc;
+    align-items: $ai;
   }
   @mixin layoutForIcon(){
     width: 30px;

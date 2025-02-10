@@ -1,0 +1,24 @@
+<p>menu-bar works!</p>
+
+<div class="menuBar">
+    <div class="logoDarkMode">
+        <img class="logoLine" (click)="scrolltotop()" src="./assets/img/Logodarkmob.png" alt="">
+    </div>
+    <div class="menuSystem">
+
+        <p><a href="#mee">{{'header.Why me' | translate }}</a></p>
+        <p><a href="#skills">{{'header.Skills' | translate }}</a></p>
+        <p (click)="scrolltobottom()"><a href="#pro">{{'header.Projects' | translate }}</a></p>
+        <p (click)="scrolltobottom()"><a href="#con">{{'header.Contact' | translate }}</a></p>
+    </div>
+
+    <div class="changeLangugageWeb">
+        <div>
+            <p class="buttonForTranslateDE" (click)="changeLanguage('de')">DE</p>
+        </div>
+        <div>
+            <p class="buttonForTranslateEN" (click)="changeLanguage('en')">EN</p>
+        </div>
+    </div>
+
+</div>

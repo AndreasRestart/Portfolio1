@@ -1,4 +1,6 @@
-@import'../../styles.scss';
+// @import'../../styles.scss';
+@use'../../styles.scss' as *;
+
 
 
 
@@ -6,15 +8,16 @@
   width: 100%;
   height: 200px;
   background-color: #89bcd9;
-  display: flex;
-    justify-content: center;
-    align-items: center;
+  @include layoutStyling() ;
+  
   gap: 414px;
 }
 
 
 .socialIconFooter {
-  @include layoutStyling();
+  display: flex;
+    justify-content: center;
+    align-items: center;
   color: black;
   gap: 16px;
   a {
@@ -53,7 +56,11 @@ p {
   height: 35px;
   color: black;
 }
+
 a {
   text-decoration: none;
+  &:hover{
+    text-decoration:underline;
+  }
   color: black;
 }
