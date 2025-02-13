@@ -77,5 +77,11 @@
     "contact":"contact",
     "Editorial responsible":"Editorial responsible",
     "source":"source"
+  },
+  
+  "singelProjects": {
+    "duration":"duration",
+    "description":"description"
+  
   }
 }

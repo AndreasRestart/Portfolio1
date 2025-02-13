@@ -75,5 +75,12 @@
     "contact":"Kontakt",
     "Editorial responsible":"Redaktionell verantwortlich",
     "source":"Quelle"
-  }
+  },
+
+  "singelProjects": {
+  "duration":"Dauer",
+  "description":"Beschreibung"
+
+}
+
 }
