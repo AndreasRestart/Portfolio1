@@ -3,12 +3,6 @@
   width: 100%;
   @include layourStylinA();
 }
-.skill {
-  width: 307px;
-  height: 105px;
-  text-align: center;
-}
-
 .icons {
   gap: 40px 40px;
   width: 450px;
@@ -16,43 +10,44 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  .icon {
+    width: 76px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+  }
 }
-
-.icon {
-  width: 76px;
-  height: 100px;
-  display: flex;
-  flex-direction: row;
-}
-
 .currently {
   width: 525px;
   height: 524px;
-}
-p {
-  @include layourStylinA();
-  align-items: center;
-  flex-direction: column;
-}
-
-.subject {
-  width: 410px;
-  height: 385px;
-  @include layourStylinA();
-  flex-direction: column;
-  align-items: center;
-  background-size: contain;
-  background-position: center;
-  background-image: url(../../../../../Portfolio/src/assets/img/EllipseBG1.png);
-  transition: background-image 0.7s ease;
-  background-repeat: no-repeat;
-  &:hover {
-    background-image: url(../../../../../Portfolio/src/assets/img/EllipseBG.png);
+  .subject {
+    width: 410px;
+    height: 385px;
+    @include layourStylinA();
+    flex-direction: column;
+    align-items: center;
+    background-size: contain;
+    background-position: center;
+    background-image: url(../../../../../Portfolio/src/assets/img/EllipseBG1.png);
+    transition: background-image 0.7s ease;
     background-repeat: no-repeat;
+    &:hover {
+      background-image: url(../../../../../Portfolio/src/assets/img/EllipseBG.png);
+      background-repeat: no-repeat;
+    }
+    .iconSubject {
+      width: 36px;
+      height: 54px;
+    }
+    p {
+      @include layourStylinA();
+      align-items: center;
+      flex-direction: column;
+    }
+    .skill {
+      width: 307px;
+      height: 105px;
+      text-align: center;
+    }
   }
-}
-
-.iconSubject {
-  width: 36px;
-  height: 54px;
 }

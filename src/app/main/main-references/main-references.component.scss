@@ -2,31 +2,30 @@
 
 .references {
   width: 100%;
-  height: 479px;
+  height: 560px;
   text-align: center;
   @include layourStylinA();
   flex-direction: column;
-}
-.shapecollected {
-  height: 385px;
-  @include layourStylinA();
-  text-align: center;
-  flex-direction: row;
-}
-
-.shape {
-  width: 378px;
-  height: 383px;
-  @include layourStylinA();
-  flex-direction: column;
-  align-items: center;
-  background-size: contain;
-  background-position: center;
-  background-image: url(../../../assets/img/Shaperefer.png);
-  transition: backgorund-image 0.7s ease;
-  background-repeat: no-repeat;
-  &:hover {
-    background-image: url(../../../assets/img/Ellipse24ref.png);
-    background-repeat: no-repeat;
+  .shapecollected {
+    height: 385px;
+    @include layourStylinA();
+    text-align: center;
+    flex-direction: row;
+    .shape {
+      width: 378px;
+      height: 383px;
+      @include layourStylinA();
+      flex-direction: column;
+      align-items: center;
+      background-size: contain;
+      background-position: center;
+      background-image: url(../../../assets/img/Shaperefer.png);
+      transition: backgorund-image 0.7s ease;
+      background-repeat: no-repeat;
+      &:hover {
+        background-image: url(../../../assets/img/Ellipse24ref.png);
+        background-repeat: no-repeat;
+      }
+    }
   }
 }

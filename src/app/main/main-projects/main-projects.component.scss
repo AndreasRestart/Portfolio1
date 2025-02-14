@@ -5,82 +5,36 @@
   flex-direction: column;
   text-align: center;
   width: 100%;
-
   .layout {
     height: 115px;
     display: flex;
     justify-content: flex-end;
     width: 981px;
+    .pro {
+      display: flex;
+      text-align: left;
+      justify-content: start;
+      flex-direction: row;
+    }
+    .projectForText {
+      width: 248px;
+      height: 97px;
+      @include layourStylinA();
+      flex-direction: row;
+      text-align: center;
+      align-items: center;
+      &:hover {
+        background-image: url(../../../assets/img/Project1BackgroundImage.png);
+        background-size: cover;
+      }
+    }
   }
-}
-.projectForText {
-  width: 248px;
-  height: 97px;
-  @include layourStylinA();
-  flex-direction: row;
-  text-align: center;
-  align-items: center;
-  &:hover {
-    background-image: url(../../../assets/img/Project1BackgroundImage.png);
-    background-size: cover;
+  .references {
+    width: 100%;
+    height: 645px;
+    @include layourStylinA();
+    align-items: center;
+    flex-direction: row;
+    background-color: #2d383f;
   }
-}
-
-.pro {
-  display: flex;
-  text-align: left;
-  justify-content: start;
-  flex-direction: row;
-}
-
-.references {
-  width: 100%;
-  height: 645px;
-  @include layourStylinA();
-  align-items: center;
-  flex-direction: row;
-  background-color: #2d383f;
-}
-.description {
-  width: 690px;
-  height: 517px;
-  @include layourStylinA();
-  flex-direction: column;
-}
-.technologies {
-  width: 453px;
-  height: 517px;
-  @include layourStylinA();
-  flex-direction: column;
-  text-align: center;
-  align-items: center;
-}
-
-.screenshot {
-  border-radius: 30px;
-  height: 312px;
-  width: 453px;
-  @include layourStylinA();
-  align-items: center;
-}
-
-a {
-  @include layourStylinA();
-  align-items: center;
-  width: 36px;
-  height: 36px;
-}
-
-.goo {
-  width: 132px;
-  height: 48px;
-  gap: 40px;
-}
-.technologiesImage {
-  @include layourStylinA();
-  align-items: flex-start;
-  flex-direction: row;
-  width: 183px;
-  height: 70px;
-  gap: 32px;
 }
