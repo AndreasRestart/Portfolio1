@@ -3,64 +3,56 @@
 .whyMe {
   @include layourStylinA();
   gap: 52px;
-}
-
-.local {
-  color: white;
-  @include layourStylinA();
-  flex-direction: column;
-}
-.text {
-  width: 400px;
-  height: 176px;
-  @include layoutStylingB();
-}
-.dialog {
-  width: 550px;
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  gap: 10px;
-}
-.textLocated {
-  display: flex;
-  align-items: center;
-  width: 394px;
-  display: flex;
-  gap: 11px;
-}
-
-.imgLocated {
-  width: 250px;
-}
-
-button {
-  width: 153px;
-  height: 48px;
-  border-radius: 30px;
-  border-color: #89bcd9;
-  padding-top: 13px;
-  padding-right: 30px;
-  padding-bottom: 13px;
-  padding-left: 30px;
-  border: 1px solid #89bcd9;
-  color: #89bcd9;
-  background-color: transparent;
-  &:hover {
-    background-color: #f7efe634;
-    border-radius: 30px;
+  .local {
+    color: white;
+    @include layourStylinA();
+    flex-direction: column;
+    .dialog {
+      width: 550px;
+      display: flex;
+      justify-content: center;
+      flex-direction: row;
+      gap: 10px;
+      img {
+        display: flex;
+      }
+      .textLocated {
+        display: flex;
+        align-items: center;
+        width: 394px;
+        display: flex;
+        gap: 11px;
+        .blue {
+          color: #89bcd9;
+          font-size: 25px;
+        }
+      }
+    }
   }
-}
-
-.talk {
-  display: flex;
-  justify-content: flex-end;
-}
-.blue {
-  color: #89bcd9;
-  font-size: 25px;
-}
-
-img {
-  display: flex;
+  .text {
+    width: 400px;
+    height: 176px;
+    @include layoutStylingB();
+    .talk {
+      display: flex;
+      justify-content: flex-end;
+      button {
+        width: 153px;
+        height: 48px;
+        border-radius: 30px;
+        border-color: #89bcd9;
+        padding-top: 13px;
+        padding-right: 30px;
+        padding-bottom: 13px;
+        padding-left: 30px;
+        border: 1px solid #89bcd9;
+        color: #89bcd9;
+        background-color: transparent;
+        &:hover {
+          background-color: #f7efe634;
+          border-radius: 30px;
+        }
+      }
+    }
+  }
 }

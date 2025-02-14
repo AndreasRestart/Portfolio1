@@ -1,7 +1,6 @@
 <p>main-contact works!</p>
 
 <div class="c">
-
     <div class="contactMe">
 
         <h3> {{'main-contact.Contact me' | translate}}</h3>
@@ -13,9 +12,11 @@
                 </p>
             </div>
             <div class="mailTel">
-                &#9993; E-mail: andreaswelker&#64;aol.com <br>
-                <br>
-                &#9990; Tel: 0171 624 59 85
+                <a href="mailto:andreaswelker@andreaswelker.com">
+                &#9993; E-mail: andreaswelker&#64;aol.com</a>
+            
+                <a href="tel:01716245985">&#9990; Tel: 0171 624 59 85</a>
+                
 
             </div>
         </div>
@@ -24,7 +25,6 @@
             <form (ngSubmit)="onSubmit(contactForm)" #contactForm="ngForm" class="contactForm">
                 <div class="nameMail">
                     <div>
-
                         <label for="name" class="contactName">
                             <h4>{{'main-contact.Your name' | translate}}</h4>
                         </label>
@@ -32,7 +32,6 @@
                     </div>
 
                     <div>
-
                         <label for="mail" class="contactEmail">
                             <h4> {{'main-contact.Your Email' | translate}}</h4>
                         </label>
@@ -42,16 +41,13 @@
 
                 </div>
                 <div class="messageInput">
-
                     <label for="message" class="contactmassage">
                         <h4> {{'main-contact.Your Message' | translate}}</h4>
                     </label>
                     <input name="massage" #message="ngModel" minlength="4" [(ngModel)]="contactDate.massage"
                         class="massage" type="text" required>
-
                     @if (!message.valid && message.touched && !message.disabled) {
                     <span>{{'main-contact.Please enter a message' | translate}}</span>
-
                     }
                 </div>
             </form>
@@ -59,16 +55,13 @@
 
         <div class="privcePolicy">
             <div>
-
                 <p>{{'main-contact.I have read the privacy policy and agree to the processing of my as otulined.' |
                     translate}}</p>
             </div>
-
             <div class="sendButton"><button class="send">Send</button>
             </div>
 
         </div>
-
 
     </div>
 

@@ -6,8 +6,20 @@
   height: 200px;
   background-color: #89bcd9;
   @include layoutStyling();
-
   gap: 414px;
+
+  p {
+    height: 35px;
+    color: black;
+  }
+
+  a {
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+    color: black;
+  }
 }
 
 .socialIconFooter {
@@ -24,39 +36,26 @@
       background-color: white;
     }
   }
-}
 
-.email {
-  @include layoutForIcon();
+  .email {
+    @include layoutForIcon();
 
-  &:hover {
-    background-image: url(../../../src/assets/img/Propertyhoverblue.png);
+    &:hover {
+      background-image: url(../../../src/assets/img/Propertyhoverblue.png);
+    }
   }
-}
 
-.discord {
-  @include layoutForIcon();
-  &:hover {
-    background-image: url(../../../src/assets/img/PropertyGitHub.png);
+  .discord {
+    @include layoutForIcon();
+    &:hover {
+      background-image: url(../../../src/assets/img/PropertyGitHub.png);
+    }
   }
-}
 
-.LinkedIn {
-  @include layoutForIcon();
-  &:hover {
-    background-image: url(../../../src/assets/img/PropertyLinkedIN.png);
+  .LinkedIn {
+    @include layoutForIcon();
+    &:hover {
+      background-image: url(../../../src/assets/img/PropertyLinkedIN.png);
+    }
   }
-}
-
-p {
-  height: 35px;
-  color: black;
-}
-
-a {
-  text-decoration: none;
-  &:hover {
-    text-decoration: underline;
-  }
-  color: black;
 }

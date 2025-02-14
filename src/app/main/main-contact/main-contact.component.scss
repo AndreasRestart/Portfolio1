@@ -4,219 +4,168 @@
   justify-content: center;
   flex-direction: row;
   height: 661px;
-}
 
-.contactMe {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  height: 528px;
-}
+  .contactMe {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 528px;
+    .Contact {
+      width: 1000px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+      height: 124px;
+      text-align: start;
+      .text {
+        display: flex;
+        width: 445px;
+        height: 124px;
+      }
+      .mailTel {
+        width: 445px;
+        height: 124px;
+        color: white;
+        font-family: "Josefin Sans";
+        font-size: 20px;
+        display: flex;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 20px;
+        a {
+          text-decoration: none;
+          color: white;
+          &:hover {
+            color: #89bcd9;
+          }
+        }
+      }
+    }
 
-.Contact {
-  width: 1000px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
-  height: 124px;
-  text-align: start;
-}
-.text {
-  display: flex;
-
-  width: 445px;
-  height: 124px;
-}
-
-.nameMail {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-direction: row;
-
-  gap: 21px;
-}
-
-.name {
-  width: 445px;
-  height: 80px;
-  border-radius: 30px;
-  background-color: transparent;
-  border-color: #89bcd9;
-}
-.mail {
-  width: 445px;
-  height: 80px;
-  border-radius: 30px;
-  background-color: transparent;
-  border-color: #89bcd9;
-}
-.aboutMe {
-  width: 379;
-  height: 176;
-}
-.contactEmail {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  width: 445px;
-  height: 35px;
-  border-radius: 30px;
-  border-color: #89bcd9;
-}
-.input {
-  height: 356px;
-  gap: 16px;
-}
-.massage {
-  width: 911px;
-  height: 164px;
-  border-radius: 30px;
-  background-color: transparent;
-  border-color: #89bcd9;
-}
-// .send {
-//     width: 101px;
-//     height: 48px;
-//     border-radius: 30px;
-
-// }
-.contactForm {
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-  gap: 21px;
-}
-.messageInput {
-  display: flex;
-  justify-content: flex-start;
-  text-align: left;
-  flex-direction: column;
-}
-
-.contactName {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  width: 445px;
-  height: 35px;
-}
-
-.massage {
-  width: 991px;
-  height: 164px;
-}
-
-.contactmassage {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  height: 35px;
-}
-.mailTel {
-  width: 445px;
-  height: 124px;
-  color: white;
-  font-family: "Josefin Sans";
-  font-size: 20px;
-  display: flex;
-  align-items: flex-start;
-  gap: 20px;
-
-  &:hover {
-    color: #89bcd9;
+    .input {
+      height: 445px;
+      gap: 16px;
+      .contactForm {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 21px;
+        .nameMail {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          flex-direction: row;
+          gap: 21px;
+          .name {
+            width: 445px;
+            height: 80px;
+            border-radius: 30px;
+            background-color: transparent;
+            border-color: #89bcd9;
+            .contactName {
+              display: flex;
+              justify-content: center;
+              flex-direction: column;
+              width: 445px;
+              height: 35px;
+            }
+          }
+          .mail {
+            width: 445px;
+            height: 80px;
+            border-radius: 30px;
+            background-color: transparent;
+            border-color: #89bcd9;
+            .contactEmail {
+              display: flex;
+              justify-content: center;
+              flex-direction: column;
+              width: 445px;
+              height: 35px;
+              border-radius: 30px;
+              border-color: #89bcd9;
+            }
+          }
+        }
+        .messageInput {
+          display: flex;
+          justify-content: flex-start;
+          text-align: left;
+          flex-direction: column;
+          .massage {
+            width: 1000px;
+            height: 164px;
+            border-radius: 30px;
+            background-color: transparent;
+            border-color: #89bcd9;
+            .contactmassage {
+              display: flex;
+              justify-content: center;
+              flex-direction: column;
+              height: 35px;
+              .massage {
+                width: 991px;
+                height: 164px;
+              }
+            }
+          }
+        }
+      }
+    }
+    .privcePolicy {
+      width: 997px;
+      height: 80px;
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: column;
+      text-align: left;
+      .sendButton {
+        display: flex;
+        justify-content: flex-end;
+      }
+      .send {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width: 134px;
+        height: 48px;
+        border-radius: 30px;
+        border-color: #89bcd9;
+        padding-top: 13px;
+        padding-right: 30px;
+        padding-bottom: 13px;
+        padding-left: 30px;
+        border: 1px solid #89bcd9;
+        color: #89bcd9;
+        background-color: transparent;
+        &:hover {
+          background-color: #f7efe634;
+          border-radius: 30px;
+        }
+      }
+    }
   }
-}
 
-.img {
-  color: white;
-  width: 250px;
-  height: 35px;
-}
-
-.Mail {
-  width: 350px;
-}
-
-.arrowDown {
-  width: 38px;
-  height: 89px;
-  &:hover {
-    background-color: #f7efe634;
-    border-radius: 25px;
-  }
-}
-button.arrowDown {
-  border-radius: 30px;
-  border-color: #89bcd9;
-  border: 1px solid #89bcd9;
-  background-image: url(../../../assets/img/Arrowdown.png);
-  rotate: 180deg;
-  background-color: transparent;
-  &hover {
-    background-color: #262e34;
+  button.arrowDown {
     border-radius: 30px;
+    border-color: #89bcd9;
+    border: 1px solid #89bcd9;
+    background-image: url(../../../assets/img/Arrowdown.png);
+    rotate: 180deg;
+    background-color: transparent;
+    &hover {
+      background-color: #262e34;
+      border-radius: 30px;
+    }
+    
   }
-}
-// button.send {
-//     width: 134px;
-//     height: 48px;
-
-//     border-radius: 30px;
-//     border-color: #89BCD9;
-//     padding-top: 13px;
-//     padding-right: 30px;
-//     padding-bottom: 13px;
-//     padding-left: 30px;
-//     border: 1px solid #89BCD9;
-
-//     color: #89BCD9;
-//    background-color: transparent;
-//    &:hover{
-//         background-color: #262E34;
-//         border-radius: 30px;
-
-//    }
-// }
-
-.send {
-  display: flex;
-  justify-content: center;
-  text-align: center;
-
-  width: 134px;
-  height: 48px;
-  border-radius: 30px;
-  border-color: #89bcd9;
-  padding-top: 13px;
-  padding-right: 30px;
-  padding-bottom: 13px;
-  padding-left: 30px;
-  border: 1px solid #89bcd9;
-  color: #89bcd9;
-  background-color: transparent;
-  &:hover {
-    background-color: #f7efe634;
-    border-radius: 30px;
-  }
-}
-
-.buttonText {
-  display: flex;
-  justify-content: center;
-}
-
-.privcePolicy {
-  width: 997px;
-  height: 80px;
-  display: flex;
-  justify-content: flex-start;
-  flex-direction: column;
-  text-align: left;
-}
-
-.sendButton {
-  display: flex;
-  justify-content: flex-end;
+  .arrowDown {
+      width: 38px;
+      height: 89px;
+      &:hover {
+        background-color: #f7efe634;
+        border-radius: 25px;
+      }
+    }
 }
