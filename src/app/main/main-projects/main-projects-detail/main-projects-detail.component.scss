@@ -49,10 +49,21 @@ html {
       border-radius: 30px;
       height: 312px;
       width: 453px;
-    
       display: flex;
       justify-content: center;
       align-items: center;
+      @media (max-width:1350px) {
+        height: 240px;
+      width: 360px;
+      }
+      @media (max-width:1290px){
+        height:215px;
+        width: 310px;
+      }
+      @media (max-width:1230px){
+        height:170px;
+        width: 270px;
+      }
     }
     .goo {
       display: flex;

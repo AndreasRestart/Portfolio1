@@ -7,6 +7,8 @@
   background-color: #89bcd9;
   @include layoutStyling();
   gap: 414px;
+  @media (max-width:1410px){
+  gap:226px;}
 
   p {
     height: 35px;
@@ -20,6 +22,13 @@
     }
     color: black;
   }
+.legalNotice{
+  width: 250px;
+  margin-left: 110px;
+  p{
+    width: 220px;
+  }
+}  
 }
 
 .socialIconFooter {
@@ -28,6 +37,7 @@
   align-items: center;
   color: black;
   gap: 16px;
+  margin-right: 110px;
   a {
     height: 35px;
     &:hover {

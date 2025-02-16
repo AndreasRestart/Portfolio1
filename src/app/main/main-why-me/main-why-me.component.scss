@@ -1,6 +1,9 @@
 @import "../../../styles.scss";
-
+html{
+  width: 100%;
+}
 .whyMe {
+  width: 100%;
   @include layourStylinA();
   gap: 52px;
   .local {

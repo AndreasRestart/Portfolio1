@@ -120,6 +120,17 @@
       justify-content: flex-start;
       flex-direction: column;
       text-align: left;
+      .info{display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap:10px;
+        img{
+          &:hover{
+          background-image: url(../../../assets/img/privaxyPoliceHoverEffect.png);
+          }
+        }
+       }
+      
       .sendButton {
         display: flex;
         justify-content: flex-end;
